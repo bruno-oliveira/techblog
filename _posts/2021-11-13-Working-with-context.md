@@ -37,4 +37,4 @@ There might be some specifics of the domain or a home made solution to a specifi
 
 2. Have an explorer's mentality and take small steps
 
-Once you have a few simple tasks under your belt, your confidence in the development process will increase, you'll know how the code is built and deployed, the kind of stance the team has on tests and CI/CD, so you'll be free to
+Once you have a few simple tasks under your belt, your confidence in the development process will increase, you'll know how the code is built and deployed, the kind of stance the team has on tests and CI/CD, so you'll be free to keep these things in the 
