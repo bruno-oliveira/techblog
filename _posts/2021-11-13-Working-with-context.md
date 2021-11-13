@@ -1,8 +1,8 @@
 ---
-published: false
+layout: post
+title: Working with context
+published: true
 ---
-## Working with context
-
 Recently, I've been thinking about the importance of working with context. What does this mean exactly? Context can mean a lot of different things to different people, so I'll try to elaborate on what I exactly mean by this and how exactly it can help you. 
 
 In software development, we are constantly surrounded by many context-heavy tasks and bits of information that we need to process and keep in mind, and, honestly, there can be cases when this feels overwhelming, especially when you start in a new team where there are chances of the tech stack being new, the team being completely new and the business domain being new. 
