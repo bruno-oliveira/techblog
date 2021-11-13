@@ -29,4 +29,8 @@ Let's see what we can get out of these ideas.
 
 1. You will never know everything. 
 
-This is great! Great and reassuring 
+This is great! Great and reassuring, because you can be certain that people around will be just as clueless as you are and will be.
+
+Context is just gained and built up over time but it starts expanding from a specific starting point. That point is usually defined by a combination of your role, the priorities of the business from the moment you join, your own interests and the first few tasks directly assigned to you. Once you are involved with the task, the best way to get it over the finish line is to try and grok the existing patterns in the codebase and then try to map them to your ticket and by doing so, you get a little bit of extra context and you ensure as little friction as possible in your work compared to the existing one.
+
+There might be some specifics of the domain or a home made solution to a specific technical problem that may feel elusive to you, but, with some team support in moments like code review or testing, you can still get things done based almost exclusively on pattern matching and writing the best code and tests you can. This is a good way to start moving forward and getting the lay of the land little by little. A bit like an explorer going through uncharted territory and gaining more insight as it keeps going forward. 
