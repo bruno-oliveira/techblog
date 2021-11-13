@@ -13,3 +13,18 @@ That's absolutely right!! The first step towards unblocking yourself is to reali
 In fact, it's normal that you're _never_ going to be able to learn everything about the business, the codebase and know everyone by their names. The first thing that you should come to terms with, is that you'll never know everything and that's fine! 
 
 The second thing you need to know is that taking baby steps is always going to win in efficiency in the long run, compared to trying to do everything at once. This is something that you might feel that you would be able to do and handle on your own. I mean, you look back and remember how effective you were at your last job and now you can't even build your code locally? What kind of amateur hour is this? 
+This is a hard position to be in for almost any engineer who is starting a new gig. We like a challenge, we thrive in complex environments and we provide the best value for our business when we feel productive and _lack of context_ can be a real burden.
+
+This is why I believe that working with context is critical to overcome the feelings of inadequacy that come with a new job or a new task in a job you've doing for years but, where **context is lacking**. 
+
+So, how do you build context, then? What do you do first when you want to be as effective a team member as you can be? 
+
+Let's recall the mental states that we've discussed earlier that can help us with this:
+
+1. You will never know everything. You'll need many interactions with many people in and out of your direct team to be able to grow your mental model of the business and the company. 
+
+2. Going with an explorative mentality by taking baby steps will be the fastest way to build context. 
+
+Let's see what we can get out of these ideas. 
+
+1. 
