@@ -37,4 +37,10 @@ There might be some specifics of the domain or a home made solution to a specifi
 
 2. Have an explorer's mentality and take small steps
 
-Once you have a few simple tasks under your belt, your confidence in the development process will increase, you'll know how the code is built and deployed, the kind of stance the team has on tests and CI/CD, so you'll be free to keep these things in the 
+Once you have a few simple tasks under your belt, your confidence in the development process will increase, you'll know how the code is built and deployed, the kind of stance the team has on tests and CI/CD, and so you'll be free to keep these things in the background and you can focus on understanding in detail the small things that were elusive to you before.
+Doing this is a very personal endeavor and it can require deep knowledge of the framework you are using (Spring, for example) to understand some specific things you see happening, like security filters or certain DB operations being denied, etc.
+
+This is the level of deep diving in the tech stack to gain a deeper knowledge. 
+There's then the level of gaining additional context of the abstractions in your codebase that are in place to support the underlying business you are writing code for. Usually, a good place to start is by reading any documentation if there is any. Documentation is great to understand the ideas behind certain decisions and how they affect the way features are built and code is maintained. Then, a next step is to read tests and try to run them. They are great because they usually showcase specific mechanics of the "company tech stack" in isolation which is great to build understanding of specific details. 
+
+Once you combine both approaches outlined above, you will find it easier and easier to start building context and increasing your understanding. You can use this approach to improve existing documentation, add new tests, explore certain assumptions and improve how people after you will be able to build their own context! 
