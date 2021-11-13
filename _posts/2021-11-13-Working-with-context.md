@@ -27,4 +27,6 @@ Let's recall the mental states that we've discussed earlier that can help us wit
 
 Let's see what we can get out of these ideas. 
 
-1. 
+1. You will never know everything. 
+
+This is great! Great and reassuring 
