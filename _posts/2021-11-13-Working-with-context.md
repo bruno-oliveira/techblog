@@ -23,7 +23,7 @@ Let's recall the mental states that we've discussed earlier that can help us wit
 
 1. You will never know everything. You'll need many interactions with many people in and out of your direct team to be able to grow your mental model of the business and the company. 
 
-2. Going with an explorative mentality by taking baby steps will be the fastest way to build context. 
+2. Going with an explorative mentality by taking small steps will be the fastest way to build context. 
 
 Let's see what we can get out of these ideas. 
 
@@ -34,3 +34,7 @@ This is great! Great and reassuring, because you can be certain that people arou
 Context is just gained and built up over time but it starts expanding from a specific starting point. That point is usually defined by a combination of your role, the priorities of the business from the moment you join, your own interests and the first few tasks directly assigned to you. Once you are involved with the task, the best way to get it over the finish line is to try and grok the existing patterns in the codebase and then try to map them to your ticket and by doing so, you get a little bit of extra context and you ensure as little friction as possible in your work compared to the existing one.
 
 There might be some specifics of the domain or a home made solution to a specific technical problem that may feel elusive to you, but, with some team support in moments like code review or testing, you can still get things done based almost exclusively on pattern matching and writing the best code and tests you can. This is a good way to start moving forward and getting the lay of the land little by little. A bit like an explorer going through uncharted territory and gaining more insight as it keeps going forward. 
+
+2. Have an explorer's mentality and take small steps
+
+Once you have a few simple tasks under your belt, your confidence in the development process will 
