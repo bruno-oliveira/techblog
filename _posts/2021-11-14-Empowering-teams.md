@@ -16,4 +16,7 @@ The main topic of today is how you can grow so much faster if you are surrounded
 
 Again, this really stems from my own notion of what it really meant to grow in a job in a sustainable way, and, I was still extremely junior at the time, fresh out of university and willing to prove myself, and, well, as Feynman said, "the easiest person to fool, is yourself". Basically, I had never thought exactly about how to grow in a sustainable way because I had never had the right environment for it. But, since I do have that currently, it's easier to see how much importance a good team really plays in accelerating your career. But how exactly can a great team help you supercharging your career? Let's look at some points that I observed so far:
 
-1. People need to care about their products and their customers 
+1. **People need to care about their products and their customers**
+
+I know that this sounds obvious, but, trust me, it really isn't. 
+It's extremely common for our line of work, where the pay is good, benefits are good and work exists aplenty, to have people who treat the work as a simple process of converting some sort of effort into money. I mean, sure, that's what we all do if we think in absolutes, but, I think there is a certain attitude that can make you feel better about yourself and your work, when you really dedicate yourself to it, that can make you a great developer instead of just being in it for the money. You need to learn your craft well, put in your own efforts to [gain context]
