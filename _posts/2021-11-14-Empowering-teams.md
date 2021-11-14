@@ -1,8 +1,8 @@
 ---
-published: false
----
-## Empowering teams are like career accelerators
-
+layout: post
+title: Empowering teams are like career accelerators 
+published: true
+--- 
 I follow several technical people whose stances on tech I can identify with in a few platforms, and, by far, [Gergely Orosz](https://www.linkedin.com/mwlite/in/GergelyOrosz) has been one of the most influential people I've decided to follow, and, I'm glad I did! As a former Uber manager his posts and insights are always extremely interesting to read. Some of the topics are geared towards senior ICs or people who are on track to become managers or who have more people responsibilities than a standard IC, but, at least recently, I've found for myself that you can always take away something valuable from such articles, even if you aren't yet at that level. 
 This is a bit in-line with the Stackoverflow article about growing by doing [stretch assignments](https://stackoverflow.blog/2021/08/16/using-stretch-work-assignments-to-help-engineers-grow/).
 
