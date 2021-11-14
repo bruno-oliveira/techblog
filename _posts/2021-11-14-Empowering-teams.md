@@ -23,4 +23,6 @@ It's extremely common for our line of work, where the pay is good, benefits are 
 
 I think your team plays a pivotal role in this. You need to be surrounded by greatness to achieve greatness yourself, right? When you see people around you worried about the customer who is now facing a bug, or trying to get the most clarity out of an unclear piece of work, you'll be "pressed" in a good way to mimic these actions and will try to learn with your team how they are doing it and how you can do it yourself, and, if you let it happen, trust me, you'll evolve and grow in your career much more than you could ever imagine. And it's so simple: care about your products and care about your customers. Reflect that care in your actions by learning from your team. After all, if you're just writing code but don't really care about the larger picture, what's the point? 
 
-2. **There has to be a driving force behind the teams' actions** 
+2. **There has to be a driving force behind the teams' actions**
+
+Usually, the software development team is working within the larger organization and this organization will provide a certain service to its customers, for which the development team will be usually in charge of, together with many other stakeholders like product owners, customers themselves providing feedback, team managers, etc, etc. 
