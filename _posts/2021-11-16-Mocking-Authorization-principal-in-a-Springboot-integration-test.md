@@ -1,6 +1,8 @@
 ---
-published: false
----
+layout: post
+title: Mocking `AuthorizationPrincipal` in SpringBoot
+published: true
+--- 
 ### Introduction
 
 Most web applications require a certain type of tests to ensure its correctness: we need unit tests, integration tests and we can even have acceptance tests as well.
