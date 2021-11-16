@@ -14,6 +14,9 @@ This post will cover a short example showcasing how to write a test in Springboo
 MockMvc is the main entry point for server-side Spring MVC test support, and, in essence, it allows one to configure a complete test context application so that it can be used for testing. Usually, for a given test class, it's configured in a `setUp` method as follows:
 
 ```java
+@Autowired
+private MockMvc mockMvc;
+
  @BeforeEach
     void setUp(WebApplicationContext webApplicationContext, RestDocumentationContextProvider restDocumentation) {
         this.mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext)
@@ -22,3 +25,5 @@ MockMvc is the main entry point for server-side Spring MVC test support, and, in
             .build();
     }
 ```
+
+Using the builder pattern, we can create a prepared instance 
