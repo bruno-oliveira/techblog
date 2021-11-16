@@ -26,4 +26,19 @@ private MockMvc mockMvc;
     }
 ```
 
-Using the builder pattern, we can create a prepared instance of `MockMvc` that 
+Using the builder pattern, we can create a prepared instance of `MockMvc` that has support for adding documentation and, more importantly, support for Spring Security, meaning that we can test endpoints that are secured from within our tests.
+
+### Using the annotation `@AuthorizationPrincipal` in an endpoint to require authorization
+
+From within a resource class, we can pass a `JWT` token for example, to be passed in the header of a request as follows:
+
+```java
+@GetMapping(value = {"/someEndpoint})
+    public ResponseEntity<?> getData(@AuthenticationPrincipal Jwt jwtToken){
+           String name = jwtToken.getClaimAsString("name");
+           SomeDTO response = process(name);
+           // do some processing.....
+
+           return ok(response);
+}
+```
