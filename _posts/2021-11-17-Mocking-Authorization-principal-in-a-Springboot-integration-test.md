@@ -26,4 +26,4 @@ private MockMvc mockMvc;
     }
 ```
 
-Using the builder pattern, we can create a prepared instance 
+Using the builder pattern, we can create a prepared instance of `MockMvc` that 
