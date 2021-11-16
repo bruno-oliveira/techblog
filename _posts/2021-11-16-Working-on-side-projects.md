@@ -1,8 +1,8 @@
 ---
-published: false
----
-## Working on side projects
-
+layout: post
+title: Working on side projects
+published: true
+---  
 There has always been an ongoing debate in the tech community, at least, for as long as I can say I started engaging with it about whether or not developers should work on side projects or not.
 
 There are essentially two sides to this argument: we have the people who claim that with such a hard daily job, it's better if you don't spend your free time writing code and being engaged on the same set of things that already take up most of your day, and you should pursue other hobbies. 
