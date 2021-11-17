@@ -1,7 +1,8 @@
 ---
-published: false
----
-## A New Post
+layout: post
+title: Onboarding tasks - some thoughts
+published: true
+---  
 
 One of the biggest challenges when starting a new job, both from an employee perspective and a company perspective, is deciding what is a good task to assign someone who just joined the team.
 In fact, of all three companies I've worked at so far, I've experienced different approaches to the onboarding process, and, while some worked better than others, I feel that none of it was exactly what I would look for in my own ideal onboarding.
