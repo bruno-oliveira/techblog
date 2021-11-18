@@ -23,3 +23,6 @@ Obviously, there are several drawbacks to this approach that need to be consider
 
 - Not every person feels comfortable to be working so closely with someone else, basically coding "live" with an audience;
 
+However, with this in mind, if you believe that you can improve the existing workflows, maybe, try and give _mob programming_ a try, see if it works for you and see if it significantly improves your way of working.
+
+Do you know of any other ways to improve the existing and more adopted workflows? 
