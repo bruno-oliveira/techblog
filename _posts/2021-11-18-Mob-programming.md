@@ -12,4 +12,14 @@ I think the main reason is that the cycles of "writing the code" and "reviewing 
 
 Never truly _during_. I think this is a huge gain waiting to be exploited by more teams and more people.
 
-This relies on the concept of _Mob Programming_. The idea is that you have always 2 (or more) people involved in the entire process, which, can't be called development process, but, instead, combines in one continuous workflow 
+This relies on the concept of _Mob Programming_. The idea is that you have always 2 (or more) people involved in the entire process, which, can't be called development process, but, instead, combines in one continuous workflow the tasks of development and review, which are to be seen as one single continuous activity constantly being done by several people.
+This not only increases the time to merge, but, at the same time, it improves quality because small details are usually ironed out **right there and then**, which leaves time to look at things that can have a larger impact, like performance or real business domain correctness, for example. Obviously this doesn't mean that the formal review process should be discarded, it should still happen. The idea is to make it more of a formality because the two people involved (coder and reviewer) are now in sync on both small details and larger decisions thanks to the collaborative effort expended during the development process, so, the review was actually done _during_ the work part itself.
+
+Obviously, there are several drawbacks to this approach that need to be considered:
+
+- It's a big shift from the traditional way of working: this requires a change in processes that can sometimes be almost institutional and so ingrained in a certain way of working, that it can do more harm than good. It's also something that can't be "soft-tried", you just need to either do it for a sprint or two, or, not do it at all, which adds an extra resistance element to its adoption;
+
+- For smaller teams, or teams operating in a "sub-teams" approach, where certain sub-teams are formed to tackle different tasks, it's also hard to put this process in place, because the velocity of the parallel sub-teams would eventually decrease in order to pull in more people to participate in the integrated, short feedback loop that this methodology proposes; this can be unacceptable in some settings;
+
+- Not every person feels comfortable to be working so closely with someone else, basically coding "live" with an audience;
+
