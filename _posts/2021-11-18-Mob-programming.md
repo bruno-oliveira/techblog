@@ -8,4 +8,8 @@ There are always extra meetings happening, the person who is reviewing is busy o
 
 This requires you to add more tests, maybe do some QA work by deploying this on an acceptance machine and validate that the changes still preserve the original functionality. After this, the new code you just wrote, will need to be looked at again, and, then, and only then, it can be merged. The original 4 days of "bulk work" can easily extend to take more like 7 or 8 days, and, with 10 days in a sprint, a seemingly small ticket can drag for a long time. Why is this?
 
-I think the main reason is that the cycles of "writing the code" and "reviewing it" are fundamentally decoupled in time. This happens everywhere I've been so far. You write the code. Do your best possible work. And then the review cycle starts. Only _after_ you've done the work. Never truly _during_. I think this is a huge gain waiting to be exploited by more teams and more people.
+I think the main reason is that the cycles of "writing the code" and "reviewing it" are fundamentally decoupled in time. This happens everywhere I've been so far. You write the code. Do your best possible work. And then the review cycle starts. Only _after_ you've done the work. 
+
+Never truly _during_. I think this is a huge gain waiting to be exploited by more teams and more people.
+
+This relies on the concept of _Mob Programming_. The idea is that you have always 2 (or more) people involved in the entire process, which, can't be called development process, but, instead, combines in one continuous workflow 
