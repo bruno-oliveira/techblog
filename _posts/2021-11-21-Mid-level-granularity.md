@@ -13,4 +13,9 @@ Since I've been at mid-level for well over a year now, I think I can write a lit
 
 ### Different companies, different meaning 
 
-Every company is different. This means that the business, the size of (and criticality) the development team for the success of the company will all affect what the internal career ladders will look like. So, this is the real first step in the process, in my opinion: figure out the lay of the land and understand exactly where you stand inside the development team and 
+Every company is different. This means that the business, the size of (and criticality) the development team for the success of the company will all affect what the internal career ladders will look like. So, this is the real first step in the process, in my opinion: figure out the lay of the land and understand exactly where you stand inside the development team and where the development team is, regarding the rest of the organization: is it critical for the business to keep growing or is it just "one more team"? This is important from the perspective of the stakeholders which can ultimately decide whether you're eligible for climbing the next step or not, even if indirectly. Once you've got this covered, you can start taking next steps. 
+
+### Establishing goals and/or a clear growth path
+
+This might sound quirky, but, I think that by doing it, you'll immediately start to differentiate yourself from the rest: is there an established framework or internal career ladder that you, as an IC, can refer to when you're planning on growing in your career? Is there a formal process in place? 
+If the answer to any of these questions is no, I'd wager that you have a perfect opportunity here to start that growth: _propose that you spearhead the creation of such a framework, together with your manager._
