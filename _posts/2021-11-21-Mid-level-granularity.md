@@ -30,4 +30,4 @@ Now, it's crucial to look at this critically and think for yourself if you are d
 
 ### Devise a real plan to start closing the gaps
 
-
+Now that the gaps are there and you know exactly what it takes to reach the higher tier of the mid-level, you are in a much better position than before: now you are ready to create a plan, usually, together with your manager(s) and/or tech lead.
