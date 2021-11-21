@@ -9,6 +9,8 @@ I'm a mid-level developer myself and, it's also no secret that, inside the same 
 
 One of the most prolific and active people I follow is @kefimochi. She's, like myself, a mid-level developer and she recently tweeted the following:
 
+![2021-11-21.jpg]({{site.baseurl}}/images]/2021-11-21.jpg)
+
 Since I've been at mid-level for well over a year now, I think I can write a little about what I've been doing to reach the higher steps and my own views on it. 
 
 ### Different companies, different meaning 
