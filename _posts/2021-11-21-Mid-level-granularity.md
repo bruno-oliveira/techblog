@@ -1,7 +1,8 @@
 ---
-published: false
----
-## A New Post
+layout: post
+title: Mid-level granularity
+published: true
+---   
 
 I follow several technical people on Twitter from all steps of the technical ladder, from juniors all the way to managers, PM, TPMs, Tech Leads, etc. I like to do this because it gives me a wider frame of reference to look at myself and see exactly where I stand in my own progression. It's critical to me that I have a wider view of different levels in the industry besides only my own, otherwise, I can become biased in my own judgment. 
 
