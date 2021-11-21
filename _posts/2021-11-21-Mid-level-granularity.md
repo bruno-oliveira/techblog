@@ -47,4 +47,4 @@ The main takeway should be: a mid-level who works with intent and focus to reach
 
 - Pivoting: as the name goes. If you dabble too much on backend code, try and delve a bit onto the operations side of things. Do you notice some inneficiencies there that you can help mitigating? Great opportunity!! If you are more on the operations side, can you try to improve things from the perspective of the developers? Maybe create some self-serving platform to automate testing, or improve their deployment process, etc. Pivoting increases your chances to do meaningful work;
 
-- Work on something nobody is doing: Pipelines are flaky? You're on it! Someone needs to help onboarding the new colleague? ***raises hand***
+- Work on something nobody is doing: Pipelines are flaky? You're on it! Someone needs to help onboarding the new colleague? **raises hand**. Oh, we don't have any internal documentation? Let me focus on that. When you work on something nobody is working on, you have a great opportunity to create the highest possible impact;
