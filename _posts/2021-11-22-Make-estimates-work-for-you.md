@@ -1,6 +1,8 @@
 ---
-published: false
----
+layout: post
+title: Make estimates work for you
+published: true
+---   
 Recently, we've been experimenting at work with looking at ticket estimates under a different light than always. As many other software companies, we've ended up falling victims of the mantra: more points = more value, and, well, this can create some really awkward icebreakers in retros and other meetings, where the focus shifts towards looking at the "net negative space" instead of focusing on real progress. 
 
 The driver for conversation becomes "what went wrong?" when the sprint points fall short of The Average™, instead of "what was The Value™ delivered in the sprint?". This feels like a waste of effort, because tying value to number of story points is a completely artificial correlation that _definitely_ does not imply causation. The biggest examples we see of this, are the "tickets" that we can solve over a slack call, or a coffee with a customer or a manager or PO, simply by chatting or reframing a given problem under a different perspective. What if instead of measuring points completed, we could measure something like: "time not wasted chasing a wrong solution"? I bet in some cases, not all of course, but some, the value "gained" would be very high and just as impactful, if not more, than smashing your point record. This is because the inherent value of the work can't be fully quantified with a discrete scale of points, but, instead, by other discrete metrics that stem _from_ the work delivered but are only visible down the pipeline, like: attrition rate, customer satisfaction, number of bugs reported over X weeks for feature Y, impact of outages, etc. If **these** numbers align, then it means we are doing a good job, regardless of the points. So, after all, why do we need points? Why do we have points at all?
