@@ -1,3 +1,8 @@
+---
+layout: post
+title: Working on parallel tracks
+published: true
+---   
 Usually, when thinking about what really makes a team move fast, the first tendency is to look at how many points the team is commited to, what is the churn, what is actually being done or not. This is usually interesting, in the sense that, while the numbers can give you some accurate measurement of speed, if you want to look at it from that angle, they don't often tell the whole story. The whole story is better told by looking at _execution patterns_, or in other words, _how_ such a velocity is achieved.
 
 This is highly team dependent and even within each team, factors like the size of the team, if it's a team that is comprised of a _business vertical_ or a single capability, the areas of expertise of the members and so on, all affect the way velocity will change. One thing that I think is worthwhile to mention and explore is working using what is best defined as parallel tracks.
