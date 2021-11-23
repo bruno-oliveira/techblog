@@ -18,3 +18,8 @@ A standard unit test using the `MockitoExtension` and configuring our `mockMvc` 
 However, if we try to run this test, we see the following error, which, at a first glance, feels non-obvious:
 
 
+```bash
+//error
+```
+
+What this tells us is that the test context can't resolve the JWT, even though we are passing the token as expected. So, what is happening 
