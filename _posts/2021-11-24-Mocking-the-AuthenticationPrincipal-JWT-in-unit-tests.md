@@ -22,4 +22,11 @@ However, if we try to run this test, we see the following error, which, at a fir
 //error
 ```
 
-What this tells us is that the test context can't resolve the JWT, even though we are passing the token as expected. So, what is happening here exactly? Well, the important thing to understand is that we are passing our `AuthenticationPrincipal` to our controller method via a method annotation and the way Springboot deals with method annotations is by leveraging the work done by a class of the type 
+What this tells us is that the test context can't resolve the JWT, even though we are passing the token as expected. So, what is happening here exactly? Well, the important thing to understand is that we are passing our `AuthenticationPrincipal` to our controller method via a method annotation and the way Springboot deals with method annotations is by leveraging the work done by classes implementing the `HandlerMethodArgumentResolver` interface and then wiring it to our `MockMvc` class as follows:
+
+```java
+MockMvc mockMvc = MockMvcBuilders
+                .standaloneSetup(new SomeTestController())
+                .setCustomArgumentResolvers(new CustomArgumentResolver())
+                .build();
+```
