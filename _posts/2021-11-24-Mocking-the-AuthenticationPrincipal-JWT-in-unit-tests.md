@@ -30,3 +30,31 @@ MockMvc mockMvc = MockMvcBuilders
                 .setCustomArgumentResolvers(new CustomArgumentResolver())
                 .build();
 ```
+
+Let's look at our controller class:
+
+Addcode
+
+We see that we pass our JWT to our method with: `@AuthenticationPrincipal Jwt principal` 
+This is the critical piece of our method that we will need to link with our `CustomArgumentResolver`:
+
+```java
+public class PrincipalDetailsArgumentResolver implements HandlerMethodArgumentResolver {
+    @Override
+    public boolean supportsParameter(MethodParameter parameter) {
+        return parameter.getParameterType().isAssignableFrom(PrincipalDetails.class);
+    }
+    @Override
+    public Object resolveArgument(MethodParameter parameter, ModelAndViewContainer mavContainer,
+                                  NativeWebRequest webRequest, WebDataBinderFactory binderFactory) {
+        User user = User.builder()
+                .id(1L)
+                .username("some name")
+                .provider("some sns provider")
+                .roles(Collections.singleton(RoleType.ROLE_USER))
+                .build();
+        PrincipalDetails principalDetails = new PrincipalDetails(user);
+        return principalDetails;
+    } 
+ } 
+```
