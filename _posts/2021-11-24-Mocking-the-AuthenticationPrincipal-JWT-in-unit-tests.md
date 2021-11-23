@@ -53,3 +53,9 @@ public class CustomArgumentResolver implements HandlerMethodArgumentResolver {
     } 
  } 
 ```
+
+Note how we define the class from which our method parameter is assignable from as being exactly the type of the class that matches the implementation of the annonation in our controller class, which, in our case, is `Jwt`.
+
+Now, with all this wiring in place, we can re-run our test, and verify that it will pass!
+
+We then see the flexibility that we can gain by delving deep into how `MockMvc` can be configured and how we can write better tests at all levels of responsibility when needing to work with `Authentication` related classes in our code.
