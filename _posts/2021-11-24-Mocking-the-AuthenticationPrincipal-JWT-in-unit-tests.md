@@ -39,22 +39,17 @@ We see that we pass our JWT to our method with: `@AuthenticationPrincipal Jwt pr
 This is the critical piece of our method that we will need to link with our `CustomArgumentResolver`:
 
 ```java
-public class PrincipalDetailsArgumentResolver implements HandlerMethodArgumentResolver {
+public class CustomArgumentResolver implements HandlerMethodArgumentResolver {
     @Override
     public boolean supportsParameter(MethodParameter parameter) {
-        return parameter.getParameterType().isAssignableFrom(PrincipalDetails.class);
+        return parameter.getParameterType().isAssignableFrom(Jwt.class);
     }
     @Override
     public Object resolveArgument(MethodParameter parameter, ModelAndViewContainer mavContainer,
                                   NativeWebRequest webRequest, WebDataBinderFactory binderFactory) {
-        User user = User.builder()
-                .id(1L)
-                .username("some name")
-                .provider("some sns provider")
-                .roles(Collections.singleton(RoleType.ROLE_USER))
-                .build();
-        PrincipalDetails principalDetails = new PrincipalDetails(user);
-        return principalDetails;
+      var jwtToken = JwtBuilder.value(...).header(..).claims(...).build();
+        var jwt = new Jwt(jwtToken);
+        return jwt;
     } 
  } 
 ```
