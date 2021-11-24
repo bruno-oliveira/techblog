@@ -12,14 +12,55 @@ However, in order to use a mock JWT in the context of a unit test, we will see t
 A standard unit test using the `MockitoExtension` and configuring our `mockMvc` instance with the standalone setup could look like this:
 
 ```java
-//some java
+@DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
+@ExtendWith(MockitoExtension.class)
+class SomeResourceTest {
+
+    private MockMvc mockMvc;
+
+    private SomeResource someResource;
+
+    @Mock
+    private SomeService someService;
+
+    @BeforeEach
+    void setUp() {
+        someResource = new SomeResource(someService);
+        mockMvc = MockMvcBuilders.standaloneSetup(someResource)
+                .build();
+    }
+    
+    @Test
+    void get_correct_result_when_token_is_used() throws Exception {
+        var data = new HashSet<String>();
+        data.add("data1");
+
+        when(someService.getData(any())).thenReturn(new ResultDTO(data));
+
+        mockMvc.perform(get("/data")
+                .contentType("application/json")
+                .with(jwt().jwt(builder -> builder.tokenValue("value").claim("data", "data1").header("Authorization", "Bearer value"))))
+            .andExpect(status().isOk());
+    }
+    
+
 ```
 
 However, if we try to run this test, we see the following error, which, at a first glance, feels non-obvious:
 
 
 ```bash
-//error
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.jwt.Jwt]: Constructor threw exception; nested exception is java.lang.IllegalArgumentException: tokenValue cannot be empty
+
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:183)
 ```
 
 What this tells us is that the test context can't resolve the JWT, even though we are passing the token as expected. So, what is happening here exactly? Well, the important thing to understand is that we are passing our `AuthenticationPrincipal` to our controller method via a method annotation and the way Springboot deals with method annotations is by leveraging the work done by classes implementing the `HandlerMethodArgumentResolver` interface and then wiring it to our `MockMvc` class as follows:
@@ -33,7 +74,14 @@ MockMvc mockMvc = MockMvcBuilders
 
 Let's look at our controller class:
 
-Addcode
+```java
+@GetMapping
+    public ResponseEntity<?> getDataResults(@AuthenticationPrincipal Jwt principal) {
+        List<String> data = principal.getClaimAsStringList("data");
+        var responseDTO = someService.fetchData(principal);
+        return data.isEmpty() ? noContent().build() : responseDTO;
+    }
+```
 
 We see that we pass our JWT to our method with: `@AuthenticationPrincipal Jwt principal` 
 This is the critical piece of our method that we will need to link with our `CustomArgumentResolver`:
