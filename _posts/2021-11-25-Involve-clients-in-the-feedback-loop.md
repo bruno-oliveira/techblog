@@ -2,3 +2,4 @@ One of the biggest struggles for any product-based company is to know exactly _w
 
 However, almost paradoxically, after having the first solid customer base in place, something weird happens to most product based companies, especially as they scale up: 
 
+![talk-to-clients.png]({{site.baseurl}}/images/talk-to-clients.png)
