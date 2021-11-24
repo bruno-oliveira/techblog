@@ -1,6 +1,8 @@
 ---
-published: false
----
+layout: post
+title: Mocking the JWT AuthenticationPrincipal in the context of unit tests
+published: true
+---  
 Often it is needed to write tests for our application that deal with some form of Authentication, and, even more frequently, the goal of these tests is **not** to worry about the actual authentication mechanism itself, but, instead, of what logic occurs when we _assume_ that the authentication was successful. In testing jargon, we want to simply unit test the logic that sits _behind_ the authentication mechanism, not concerning ourselves with the authentication piece itself.
 
 A somewhat common pattern for writing resource and/or controller classes when dealing with Authentication is to leverage one of the many annotations of Springboot, hoping that it does its magic, and, most certainly, it does:
