@@ -29,3 +29,9 @@ Without even looking at the code directly, these three aspects, in my opinion, w
 ### Embrace the Kintsugi
 
 [Kintsugi](https://www.artsy.net/article/artsy-editorial-centuries-old-japanese-tradition-mending-broken-ceramics-gold) is a great analogy for how to work with modern software. The idea is that you should embrace the mending bits and pieces that glue your code together and keep it working.
+
+Even though the "ugly" parts of the code base can feel convoluted and harder to grasp, they are like the story of the code over its lifetime and they end up shaping the code that you're working with right now and they will shape and guide your current and future decisions, so, by embracing these imperfections you are honing the work of all the people who came before you and were once in the same position that you are in yourself right now.
+
+Imperfections can feel sloppy but in most of the cases, they are the result of practicing software engineering, and, remember:
+
+_"Software Engineering is programming integrated over time."
