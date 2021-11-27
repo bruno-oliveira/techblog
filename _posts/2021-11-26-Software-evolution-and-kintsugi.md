@@ -3,6 +3,8 @@ layout: post
 title: Software evolution and kintsugi
 published: true
 ---
+
+![kintsugi-bowl.jpg]({{site.baseurl}}/images/kintsugi-bowl.jpg)
   
 Often in life, it's said that the perfect is the enemy of the good. What this means is that sometimes, it's worthy to settle on a good enough approach for doing something, even if it's obvious that there could be improvements in some areas. The issue, of course, is that the _sunk cost fallacy_ is very real, and, sometimes, attempting to reach perfection from a system that is already good enough can warrant more problems that will (in many cases) outweight the promised benefits. So, it is important to maintain a critical view on when to judge a system as being good enough for a given purpose as opposed to attempt and make it "perfect", because, in life, perfection is often elusive.
 
