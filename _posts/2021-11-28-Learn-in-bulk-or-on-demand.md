@@ -9,3 +9,8 @@ An interesting post on the HN Ask section, posed a question that prompted me to 
 
 This is a really interesting question and, critically looking at it, I believe there are two sides to it: if you are working on a personal project, there is a certain approach you can take, and, if you are working at your job, probably the exploratory aspect will differ a little bit, because the environment and the tools at your disposal are also different, so, I will try to approach this interesting question from both perspectives.
 
+### Learning for a side project 
+
+A side project is essentially a greenfield project where you will wear ALL the hats. You'll have to be the developer, the main stakeholder, the main client (sometimes), the main customer relations person and the main contributor. 
+
+This means that no matter the complexity of the thing, you are in complete control. You can work on it as much or as little as you'd like to and there won't be any extra pressure to deliver. 
