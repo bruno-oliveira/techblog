@@ -13,4 +13,6 @@ This is a really interesting question and, critically looking at it, I believe t
 
 A side project is essentially a greenfield project where you will wear ALL the hats. You'll have to be the developer, the main stakeholder, the main client (sometimes), the main customer relations person and the main contributor. 
 
-This means that no matter the complexity of the thing, you are in complete control. You can work on it as much or as little as you'd like to and there won't be any extra pressure to deliver. 
+This means that no matter the complexity of the thing, you are in complete control. You can work on it as much or as little as you'd like to and there won't be any extra pressure to deliver. This is a great opportunity to broaden your horizons and try out new technologies. As such, I belive that learning on demand here is the best: you open up a tutorial, finish it, try to tweak it to do what you are trying to accomplish, repeat ad eternum. 
+
+I think in this scenario, learning on demand is good because you're like a one man army and working as a full stack, there will be parts of one side of the stack that you'll be less familiar with, so, learning on demand can bring you the most outcome here. 
