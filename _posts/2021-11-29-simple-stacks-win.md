@@ -22,3 +22,5 @@ Since this is all about people and about outcomes, remember that it pays off to 
 People love validation and, validation is best gained when it can be seen or experienced firsthand by the people who will be using your products. The complexity appears only as a derivative of the engineering process of creating customer value out of the code, but, that complexity is well within your control and it can be managed to be kept to a minimum.
 
 For many of my side-projects, I am both creator, stakeholder, customer and, 99% of the time, the sole user of it. Sometimes, I can make some small simple web apps used by me and my family and a few friends very sporadically, basically, 0 traffic. And, in these times, the best thing I've learned is to stick with the simplest thing that can possibly work and just leverage that to its full potential.
+
+By doing this, I can focus on building something that is of use for me and my family and friends, without being slowed down by details 
