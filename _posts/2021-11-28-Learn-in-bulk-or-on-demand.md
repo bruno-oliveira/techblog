@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learn on-demand or in-bulk?
-published: false
+published: true
 ---
 An interesting post on the HN Ask section, posed a question that prompted me to write this short piece:
 
