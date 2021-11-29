@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simplicty always wins
+title: Simplicity always wins
 published: true
 ---
 Software engineers love complexity. Complexity is an inherent part of writing software because the medium itself (programming languages) is complex on its own. When you put together with it the discipline of _doing_ software engineering, where you add time constraints, customers, budgets and changing requirements... well... it's complicated. 
