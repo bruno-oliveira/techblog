@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simplicty always wins
-published: false
+published: true
 ---
 Software engineers love complexity. Complexity is an inherent part of writing software because the medium itself (programming languages) is complex on its own. When you put together with it the discipline of _doing_ software engineering, where you add time constraints, customers, budgets and changing requirements... well... it's complicated. 
 
@@ -23,4 +23,10 @@ People love validation and, validation is best gained when it can be seen or exp
 
 For many of my side-projects, I am both creator, stakeholder, customer and, 99% of the time, the sole user of it. Sometimes, I can make some small simple web apps used by me and my family and a few friends very sporadically, basically, 0 traffic. And, in these times, the best thing I've learned is to stick with the simplest thing that can possibly work and just leverage that to its full potential.
 
-By doing this, I can focus on building something that is of use for me and my family and friends, without being slowed down by details 
+By doing this, I can focus on building something that is of use for me and my family and friends, without being slowed down by details or unnecessary complexity.
+
+You would be surprised how far you can take a project hosted on Heroku free tier connected against a simple DB instance. In fact, it might be robust enough for the first few dozens of potential clients you would have, and, if you can lay the foundations based on tested and tried technology and iterate from there, you will be in a much better position to be flexible with your own code and to respond to client requests. Simplicity at the code level will, usually, percolate to simplicity at the "customer level" meaning that you can more confidently say that you can meet any demand or adjust to any situation and always be in a position to evaluate trade-offs, because you've kept things simple.
+
+Simplicity is key to agility. Agility allows for faster feedback loops and faster feedback loops allow for faster client validation and satisfaction.
+
+And that's what software engineering is all about! Keep things simple, to move fast and with confidence.
