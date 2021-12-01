@@ -1,3 +1,8 @@
+---
+layout: post
+title: Refactoring to design patterns - Example of Chain Of Responsibility
+published: true
+---
 Design patterns are great for creating maintainable and reusable code, and, while being universally applicable, they lend themselves well to be implemented in languages that support OOP like Java. This is because these patterns are usually defined in terms of specific "collaborators" that can be very well modelled as interfaces and/or classes, so, it's easier to "see the patterns" in front of you when using a language that naturally lends itself to it. They are, in essence, a proven and tried way to tackle a problem in software design that has a solution that is proven to be good, robust and generally accepted as a standardized way to solve that specific problem.
 
 In all honesty, I personally think, that design patterns are learnt at a very early stage in one's education, where there hasn't been enough exposure to professional codebases and different domains and even companies in order to be able to spot the patterns and decide when they can best be applied. The examples taught in school are usually very self-contained and the "business domain" is tailored very specifically to the individual patterns, to make it easy to "see them", but, obviously in the real world that is rarely the case. Domains are usually much broader and much more complex than textbook examples, and, over time, as the code evolves, requirements change and the structure of the underlying code resembles more quicksand than a rock solid foundation - with all the moving parts, _all the time_, it becomes very difficult to see patterns, so, applying them is even harder.
@@ -128,4 +133,4 @@ Like this we can test each of these services in isolation, mock their collaborat
 
 Design patterns can be hard to see and spot, but, when used in the right context they can leverage OO patterns to make your code easier to follow, read and maintain. A final important remark is that the patterns usually need to be slightly adjusted to map the way certain frameworks require developers to structure their code, but, as long as the basic underlying principles are understood, they can be leveraged to the fullest.
 
-
+![structurecor.jpg]({{site.baseurl}}/images/structurecor.jpg)
