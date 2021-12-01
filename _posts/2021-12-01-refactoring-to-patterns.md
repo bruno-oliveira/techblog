@@ -133,4 +133,4 @@ Like this we can test each of these services in isolation, mock their collaborat
 
 Design patterns can be hard to see and spot, but, when used in the right context they can leverage OO patterns to make your code easier to follow, read and maintain. A final important remark is that the patterns usually need to be slightly adjusted to map the way certain frameworks require developers to structure their code, but, as long as the basic underlying principles are understood, they can be leveraged to the fullest.
 
-![structurecor.jpg]({{site.baseurl}}/images/structurecor.jpg)
+![structurecor.png]({{site.baseurl}}/images/structurecor.png)
