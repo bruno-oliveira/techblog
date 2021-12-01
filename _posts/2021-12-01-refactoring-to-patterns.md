@@ -126,4 +126,6 @@ Note how we can use the interface to wire together in the top level service all 
 
 Like this we can test each of these services in isolation, mock their collaborators and have a much leaner and clean top level service.
 
-Design patterns can be hard to see and spot, but, when used
+Design patterns can be hard to see and spot, but, when used in the right context they can leverage OO patterns to make your code easier to follow, read and maintain. A final important remark is that the patterns usually need to be slightly adjusted to map the way certain frameworks require developers to structure their code, but, as long as the basic underlying principles are understood, they can be leveraged to the fullest.
+
+
