@@ -11,7 +11,7 @@ The truth is, we are all humans and, as all humans, we lounge for a sense of con
 
 This is almost a refuge in the technical craft of the job. It's being happy for doing our job to the best of our abilities, but, missing the real impact it has on the people who will benefit from it the most. A soccer player can be happy for landing that perfect free-kick, or an amazing header, but, if the team loses, does it really add value? Does it really bring joy in the long run? Of course, it's a reason to be happy for some nice, perfect technical execution of a task, but, if that execution can't be somehow "externally" perceived, it all feels a bit in vain. Again, as the famous PicardTips twitter recommends:
 
-![picard2.jpg]({{site.baseurl}}/images/picard2.jpg)
+![picardv2.jpg]({{site.baseurl}}/images/picardv2.jpg)
 
 I think this is a very small detail that can be easily overlooked, but, as creators and makers, it is _always_ nice to receive external validation from a job well done: it gives a nice morale boost, and it can make people both more engaged and happy at their jobs.
 
