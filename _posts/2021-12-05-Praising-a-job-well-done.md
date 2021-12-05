@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Praise the team
-published: false
+published: true
 ---
 Most software developers working at product companies usually work on delivering features to customers and/or defined by stakeholders within the organization in a roadmap. These features are usually (but not always!) tied to a well-defined business metric or goal or to a specific product vision to be fullfilled in a given timeframe: "We want the product to do X by date Y and we want to ensure that our biggest client from BigCorp receives the feature he has been asking for months now". These scenarios, in one form or another are what ends up driving product development and indirectly contributes to other factors like: developer happiness and productivity, product engagement, client retention, etc. 
 
@@ -11,3 +11,12 @@ The truth is, we are all humans and, as all humans, we lounge for a sense of con
 
 This is almost a refuge in the technical craft of the job. It's being happy for doing our job to the best of our abilities, but, missing the real impact it has on the people who will benefit from it the most. A soccer player can be happy for landing that perfect free-kick, or an amazing header, but, if the team loses, does it really add value? Does it really bring joy in the long run? Of course, it's a reason to be happy for some nice, perfect technical execution of a task, but, if that execution can't be somehow "externally" perceived, it all feels a bit in vain. Again, as the famous PicardTips twitter recommends:
 
+![picard2.jpg]({{site.baseurl}}/images/picard2.jpg)
+
+I think this is a very small detail that can be easily overlooked, but, as creators and makers, it is _always_ nice to receive external validation from a job well done: it gives a nice morale boost, and it can make people both more engaged and happy at their jobs.
+
+One thing I always liked and valued when working on a given product, was simply being put on a call or a demo with a client and hear them saying to us: "Guys, this is a stellar job, really well done, keep it up!". This was coming from a person who _needed_ and _wanted_ to use our product and that felt amazing! It was actually possible for me to see the impact that the product was having on the workflow of our clients and as a great added bonus, these types of conversations are absolutely great feedback promoters: you can learn more over a 30 min call with a client than months gathering metrics or tracking users can ever tell you! So, I think the idea of having responsbile stakeholders within the company showcasing the product, be it in internal demos or at clients, needs to always be "taken advantage of" as an opportunity to praise and recognize the hard work developers do, and, simultaneously, attempting to gather pieces of feedback that can be critical to pivot the direction in which the product is going or to reinforce investment in certain feature areas.
+
+Another great motivator can be to let developers take ownership of the product when acting as "power users": this means that basically, developers can also suggest improvements to certain key features or even propose new ones to be included in the roadmap for the product, and, these ideas should be embraced by product teams in order to create a more well-rounded product, as, coming with a fresh perspective is always beneficial.
+
+So, praise your teams, seek external feedback and validation, and, use these opportunities to grow your product in the right direction. You win, developers win and your customers get the best experience they could ask for.
