@@ -1,0 +1,13 @@
+---
+layout: post
+title: Praise the team
+published: false
+---
+Most software developers working at product companies usually work on delivering features to customers and/or defined by stakeholders within the organization in a roadmap. These features are usually (but not always!) tied to a well-defined business metric or goal or to a specific product vision to be fullfilled in a given timeframe: "We want the product to do X by date Y and we want to ensure that our biggest client from BigCorp receives the feature he has been asking for months now". These scenarios, in one form or another are what ends up driving product development and indirectly contributes to other factors like: developer happiness and productivity, product engagement, client retention, etc. 
+
+These reasons alone aren't good enough to keep a development team motivated in the long run, especially since it's always the dev team getting the heat when something is slightly off from the expected normal function. You know the drill: all is roses and happiness and rainbows when things are flowing smoothly, but, when a crisis rises, the development team will be held under an unsually scrutiny as to why things aren't working as expected. 
+
+The truth is, we are all humans and, as all humans, we lounge for a sense of connectedness to our work and (at least me particularly) to seeing that the clients, the true end-users of our product are happy while using it and they can use it and benefit from it in their workflows, processes, in their own personal ambitions, you name it. But, seeing this happening, and receiving this feedback can be incredibly motivating as a developer. Programming is a discipline which stands in a slightly awakward position where it can be sometimes hard to see the real impact of your work. Of course, we can use the platform ourselves, there's an UI and, as makers of the thing, we know the work it took to get that nasty query returning data in 1 sec so that the chart renders client side in 2 sec and it all feels smooth. But, all of this is too small of a scope.
+
+This is almost a refuge in the technical craft of the job. It's being happy for doing our job to the best of our abilities, but, missing the real impact it has on the people who will benefit from it the most. A soccer player can be happy for landing that perfect free-kick, or an amazing header, but, if the team loses, does it really add value? Does it really bring joy in the long run? Of course, it's a reason to be happy for some nice, perfect technical execution of a task, but, if that execution can't be somehow "externally" perceived, it all feels a bit in vain. Again, as the famous PicardTips twitter recommends:
+
