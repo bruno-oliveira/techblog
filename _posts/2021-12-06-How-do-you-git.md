@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How do you git?
-published: false
+published: true
 ---
 Using git as a system for version control is more and more becoming the standard way of keeping your code versioned for its changes. There is probably a minority of companies that don't use it, but, most of them will, and every company does it differently. The way a company uses git (or not at all) can tell you a lot about its engineering culture and what is valued within the development teams by the leadership.
 
@@ -25,4 +25,22 @@ There are also a few drawbacks of course, and, the main one is that if there's a
 
 By creating a feature branch and enforcing a code review before merging, we get an assurance that an extra pair of eyes looks over the code with a fresh perspective and can flush out new potential bugs and also ensure that the new code follows the team standards for quality and consistency.
 
-While it means that sometimes the lead time between opening a new MR and merging it into production can grow when compared to the previous approach, it also means that the assurance of correctness will increase which in turn means that there is less time spent on fixing bugs or ironing out post-production issues, which means that there is more time to focus on feature development.
+While it means that sometimes the lead time between opening a new MR and merging it into production can grow when compared to the previous approach, it also means that the assurance of correctness will increase which in turn means that there is less time spent on fixing bugs or ironing out post-production issues, which means that there is more time to focus on feature development. So highlighting advantages and disadvantages:
+
+Advantages:
+
+- quality and consistency are enforced during a code review. It keeps the code being reviewed to the same standards as existing code which is good for the team and the health of the project;
+
+- people learn the importance and impact of doing code review - details are usually flushed out and chances of introducing bugs are lower than when no review happens;
+
+Downsides:
+
+Downsides are mainly operational but, are usually so minimal compared to doing things the right way that it's simply not worth to dwell over these:
+
+- lead times increase: reviews usually take time and require the attention of multiple team members;
+
+- if people do start a review and have to switch to any task with higher priority the review time is basically undefined and impossible to determine which can be a bottleneck in some situations;
+
+### Conclusion
+
+When working with git, make sure that in order to reap its benefits to the fullest, you integrate it with a review policy that requires the review and approval of at least one more team member. By doing so, you ensure that knowledge regarding the domain is also spread across multiple team members which is an advantage in itself.
