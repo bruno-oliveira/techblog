@@ -23,4 +23,6 @@ There are also a few drawbacks of course, and, the main one is that if there's a
 
 ### Creating a branch and enforcing a reviewer to review the changes
 
-By creating a feature 
+By creating a feature branch and enforcing a code review before merging, we get an assurance that an extra pair of eyes looks over the code with a fresh perspective and can flush out new potential bugs and also ensure that the new code follows the team standards for quality and consistency.
+
+While it means that sometimes the lead time between opening a new MR and merging it into production can grow when compared to the previous approach, it also means that the assurance of correctness will increase which in turn means that there is less time spent on fixing bugs or ironing out post-production issues, which means that there is more time to focus on feature development.
