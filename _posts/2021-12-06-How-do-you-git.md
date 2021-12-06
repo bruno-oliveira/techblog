@@ -20,3 +20,7 @@ There are also a few drawbacks of course, and, the main one is that if there's a
 - code quality can suffer in the sense that if code gets merged directly without being reviewed, we can introduce inneficiencies or bugs that would otherwise be caught.
 
 - lack of consistency across different PRs. If we merge code in an ad-hoc fashion, the codebase can quickly become inconsistent in the sense that each person will write things in a certain way which can affect consistency and decrease maintainability in the long run.
+
+### Creating a branch and enforcing a reviewer to review the changes
+
+By creating a feature 
