@@ -26,7 +26,11 @@ As you grow into the team, the domain and also, by tapping on your accumulated k
 
 ### Seek growth opportunities
 
+Another trait that's fundamental to grow as an engineer and become more comfortable in more senior positions is seeking growth opportunities with intent.
+
 ### Learn to delegate and help
+
+### Focus on business impact
 
 ### Keep an open mind
 
