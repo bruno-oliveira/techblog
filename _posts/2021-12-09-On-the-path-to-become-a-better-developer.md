@@ -18,4 +18,24 @@ As with many things, this one is quite obvious: if you want to improve, start by
 
 ### Writing documentation and structuring loose notes
 
-Documentation is extremely underrated in general and it has quite a bad reputation.
+Documentation is extremely underrated in general and it has quite a bad reputation. It's hard to maintain and it takes effort to keep updated and, more often than not, if "promoted" poorly, it can end up simply being forgotten or not really "adopted" by the team, factors which only aggravate the dislike that developers have to it.
+
+However, documentation can come in many shapes and sizes, and, not all technical documents need to be very formal in structure or be approved by other people to be considered useful and to provide their value. In fact, one of the main benefits of "simply writing" is that it becomes almost natural to have an habit of documenting what you do by compiling loose notes, similar to keeping a [knowledge log](https://bruno-oliveira.github.io/techblog/Keep-a-log/).
+
+As you grow into the team, the domain and also, by tapping on your accumulated knowledge from before, you can become the sole carrier of invaluable pieces of "tribal knowledge": this is the style of knowledge that compiles things like certain operations to spin up some test data, cleanup of old jobs, troubleshooting operational issues, tweak the infrastructure to test _that_ hard thing needed for _that_ type of bug and so on, and, when looked at as a cohesive unit, this knowledge is extremely valuable for newcomers and old people in the team. If you get into the habit of writing things down and take the time to refactor your own loose notes into a more structured form of documentation, you will be able to expand your influence and grow a lot by becoming someone that other people can look up to when they have questions. Besides, writing the documentation forces you to confront your own knowledge and can make you realize where the gaps lie, so, by filling in those gaps with the goal of writing documentation, you are both helping your team and yourself, which is a great way to grow your influence by increasing the confidence in your own knowledge.
+
+### Seek growth opportunities
+
+### Learn to delegate and help
+
+### Keep an open mind
+
+### Participate in technical interviews
+
+### Mentor junior people
+
+### Be kind and respectful
+
+### Conclusion
+
+These are just some of the traits that I've seen in many senior and staff engineers that make me feel like 
