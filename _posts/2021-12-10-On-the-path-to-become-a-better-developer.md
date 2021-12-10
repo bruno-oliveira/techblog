@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On the path to become a better developer
-published: false
+published: true
 ---
 
 There are many books and blog posts and youtube videos detailing how you can advance in your career and become a better developer. Typically, advancing in your career means aiming for and reaching positions like Senior Software Engineer or Staff Software Engineer and, usually, getting to those positions, implies that, at some extent, and some point in time, you must already be performing at the required level while still being one level below the target.
@@ -72,8 +72,20 @@ This, in turn, will make you well-equipped in the future yourself to be able to 
 
 ### Mentor junior people
 
+Mentoring in an official capacity is something that, as far as I know, is still not that common in the industry, at least, not in the places where I have worked. A mentor is essentially a person who engages in an exchange with a mentee, in such a way that there can be a symbiotic relationship of knowledge sharing and transfer. As a more experienced person who has seen a few projects to completion, maybe a few of them fail and also as a person with more knowledge of both the ecosystem for developers as well as the "political arena" within a company, you can bring a lot of value to more junior people by helping them navigate the complex environment at several layers of responsibility. Knowing how to lay out the knowledge in such a way that the mentee can benefit the most from it while also making you learn in the process is a good trait to have in terms of growing in your career.
+
 ### Be kind and respectful
+
+Last but not least, as engineers grow further into their careers, it's only natural that as their experience grows and the number of successful projects piles up, they grow a bit of an attitude of, let's say, superiority towards more junior people, or that they feel that mentoring is beneath them as they need to focus on being even more successful by themselves.
+
+I think this is one of the most important aspects to stress out on this list: our jobs are technical by nature and hard enough even with the right team and right codebase to work with. I think it's extremely undervalued the impact that being kind and respectful can have on the performance of the team and colleagues and, the best of all, it's totally free. If you are kind and foster a culture of [psychological safety](https://blog.container-solutions.com/how-i-learned-to-stop-worrying-and-love-psychological-safety-at-container-solutions) people will naturally feel safer to speak up or raise issues without fear of being cancelled and, equally important, you will be seen as a person who is level-headed and can act according to the situations which is a very important trait to have. 
+
+If you want to grow as a developer, leave your ego at the door and embrace a culture of psychological safety.
 
 ### Conclusion
 
-These are just some of the traits that I've seen in many senior and staff engineers that make me feel like 
+These are just some of the traits that I've seen in many senior and staff engineers that made me want to learn from them and grow myself to be more like them. I think it's very hard to find a single person who can embody all of these aspects at the same time, especially because some of these aspects are also constrainted by the environment people are operating in, which can hinder the possibility that all of them will be seen in a single individual.
+
+However, by learning from multiple people over several years, I truly believe that by striving to work on each of these aspects yourself, you will be able to ramp up your growth in a much more focused and efficient way than by simply wandering around the block for too long.
+
+Most of these aspects are as much things that can be learned as things that are intrinsic to the person itself and by balancing both of these aspects, you might surprise yourself!
