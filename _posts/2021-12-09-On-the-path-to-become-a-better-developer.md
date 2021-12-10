@@ -26,9 +26,21 @@ As you grow into the team, the domain and also, by tapping on your accumulated k
 
 ### Seek growth opportunities
 
-Another trait that's fundamental to grow as an engineer and become more comfortable in more senior positions is seeking growth opportunities with intent.
+Another trait that's fundamental to grow as an engineer and become more comfortable in more senior positions is seeking growth opportunities with intent. Not all opportunities are the same, and, more fundamentally, not all the opportunities arise at the right time to be tackled, especially growth opportunities. I like to think of these opportunities as [stretch work](https://stackoverflow.blog/2021/08/16/using-stretch-work-assignments-to-help-engineers-grow/). Stretch work is essentially the type of work that in order to be done forces you to go the extra mile, in several different ways:
+
+- maybe you need to integrate work with several different teams;
+
+- maybe it's work involving a large cross-cutting concern module that affects the entire codebase;
+
+- something that has never been done before;
+
+By seeking these opportunities, you can establish yourself in different ways across your team members depending on your position: if you are aiming to grow towards more senior positions, it's a great way to show to relevant people that you can actually deliver and do the work that consistently puts you at a higher level. 
+
+If, on the other hand, you are already a senior and aiming to go even higher, it can serve both as an inspiration to other colleagues, that can be motivated by your "go-getter" attitude and can take it as a nice incentive to attempt it themselves, in turn becoming better developers, which makes you act as a very efficient force multtiplier across your team, which is the most efficient way to increase your impact indirectly - if you can make others around level up to perform at your level, you have effectively "removed yourself" from their growth path as a single point of contact, which leaves you free to pursue even more challenging work.
 
 ### Learn to delegate and help
+
+While actively seeking challenging and growth work is a 
 
 ### Focus on business impact
 
