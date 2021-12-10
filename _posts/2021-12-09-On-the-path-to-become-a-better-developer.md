@@ -40,7 +40,11 @@ If, on the other hand, you are already a senior and aiming to go even higher, it
 
 ### Learn to delegate and help
 
-While actively seeking challenging and growth work is a 
+While actively seeking challenging and growth work is a great way to improve yourself at a technical level, the path towards becoming a better developer is also made of growing at a personal level and as a team player. One great way of doing that is by delegating certain bits of your work to people who are newer to the team and/or more junior to you and helping them along the way. Remember that you were once in their shoes and, while certain knowledge can be fairly obvious to you, it will certainly be new to other people, so, by delegating work with which you are familiar, you can help new people growing more accostumed to the codebase and to team processes while supporting them. This fosters a collaboration environment from the get-go to new people which helps teams gel together better.
+
+It's also a great way to practice your teaching/explaining skills which also form a huge part of what means to be a more experienced developer - while anyone can sling out code to implement something or fix a certain bug, not everyone can articulate a technical decision clearly and practicing that while supporting other colleagues is a great way to challenge yourself in a setting where everyone can benefit.
+
+An important part of becoming more experienced is understanding that you can't tackle every single task that would come your way, especially, as you gain domain knowledge and experience, learning on to delegate while supporting others is as important as handling things yourself.
 
 ### Focus on business impact
 
