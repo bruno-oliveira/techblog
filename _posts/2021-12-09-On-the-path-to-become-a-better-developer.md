@@ -56,7 +56,19 @@ Having the thought, top of mind, of assessing the business impact of _any_ techn
 
 ### Keep an open mind
 
+Keeping an open mind is also very important, and, while it has become arguably easier thanks to the huge flow of information available online and the constant innovations happening in our field, that should naturally foster a curious mind and an openess to receive innovation with open arms, there is still a huge intrinsic factor that can limit your growth as an engineer and that is the one of sticking to old habits or old technologies. While it is important to be well versed in a given tech stack and knowing things from first principles, there is a difference between knowing something and _only_ using that same something to accomplish tasks. It's easy to get biased the longer you spend under a certain tech stack, and it can shape the way you think about problems in ways that can sometimes limit you. If you only knew OOP when you started your professional career, all the problems will be seen under that same light to you. Focus on keeping an open mind and embrace change. In our field, _change is the only constant_. Some things that can help with this are, for example:
+
+- attend workshops or conferences to stay up-to-date on the latest trends in the industry;
+
+- force yourself to explore and learn new language features of your language of choice: even the same old reliable tech stack you know and love will grow and change over time, so try to stay up-to-date;
+
+- if you are so inclined, learn a new language for a small hobby or side project, and try to grasp its fundamentally new ideas. You might get inspiration for your day to day work;
+
 ### Participate in technical interviews
+
+As engineers grow within a company and/or within a certain tech stack and business domain knowledge, it's common for more experienced engineers to attend technical interviews to assess potential future colleagues. If you have the chance, seize it and attend such interviews. I personally found surprising myself that it is possible to get nervous even while being on the "other side", as an interviewer. You will also notice many different candidates, and you will see which ones are more confident, more nervous, the ones who know or don't know something, and it gives you a great insight into the more psychological factor these interviews can have on someone as a candidate.
+
+This, in turn, will make you well-equipped in the future yourself to be able to showcase your knowledge better and project an image of self-confidence. It is important as you grow into your career that you know how to judge others and how to perform yourself under stress and this is a great opportunity to do so.
 
 ### Mentor junior people
 
