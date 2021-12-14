@@ -29,3 +29,7 @@ It keeps your spirits high and you know the saying: _mens sana in corpore sano_ 
 There will be days when you will feel that you aren't being as productive as you could be, and that's okay! 
 
 Not everyone will be always 100% productive and its important to understand that your best fluctuates over time, so, your best today can be different than tomorrow and it's all fine! It's important to celebrate small wins and take it easy on yourself. Learn to manage your own expectations and things will flow much better and easily for you.
+
+### Empathize with others
+
+It's important to be able to practice empathy also as a way of managing your own mental health. When you try to put yourself in the other person's shoes, you will be able to understand better what can cause stress and frustration and will be in a better position
