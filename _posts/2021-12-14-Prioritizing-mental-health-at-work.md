@@ -32,4 +32,10 @@ Not everyone will be always 100% productive and its important to understand that
 
 ### Empathize with others
 
-It's important to be able to practice empathy also as a way of managing your own mental health. When you try to put yourself in the other person's shoes, you will be able to understand better what can cause stress and frustration and will be in a better position
+It's important to be able to practice empathy also as a way of managing your own mental health. When you try to put yourself in the other person's shoes, you will be able to understand better what can cause stress and frustration and will be in a better position to avoid these potential issues for yourself. It also makes both collaboration and solving conflicts easier if people can be all on the same page about how their colleagues are feeling and handling the isolation and WFH derived from the pandemic.
+
+### Conclusion
+
+The pandemic has taken its toll on many people who were used to a different routine and were suddenly faced with a big change and sometimes, adjusting to it while still maintaining productivity and a healthy work-life balance can be very challenging and bring some problems when not handled appropriately. These are some small suggestions that might help ease the burden of people who are in need of a change and breath of fresh air in these trying times.
+
+_PS: disclaimer: I am not a therapist or know enough to help or diagnose people who developed and/or suffered from depression as a result of the pandemic instead of simply feeling tired and or low on energy. For more serious cases or to get an appropriate diagnosis, seeing a doctor is always the best option. Stay safe out there!
