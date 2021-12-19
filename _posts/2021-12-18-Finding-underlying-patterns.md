@@ -15,5 +15,9 @@ Sometimes, this understanding will be possible to map directly into the code in 
 
 In other cases, this understanding can't be directly mapped to a specific pattern but, it will be apparent in the high level structure of the code, i.e. it's classes, packages, modules. 
 
-Discovering these underlying patterns in your domain and how they can exploited to simplify your work is an art and it's what several people would tell you that programming is all about. I agree with them, but, this definitely changes the traditional way of doing programming. 
+Discovering these underlying patterns in your domain and how they can be exploited to simplify your work is an art and it's what several people would tell you that programming is all about. I agree with them, but, this definitely changes the lens on the way of doing programming. 
+
+### Patterns emerge when you have deep knowledge
+
+
 
