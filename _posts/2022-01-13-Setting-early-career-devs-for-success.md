@@ -31,7 +31,11 @@ This doesn't even need to be very well-defined: pointers to relevant internal wi
 
 In addition, also ensure that new people document any additional questions that they have and have them completing and extending the documentation, improving your onboarding process while simultaneously giving them some simple tasks to build up familiarity with the codebase. Everybody wins.
 
--psychological safety;
+#### Psychological safety
+
+Psychological safety could be a topic on its own, and, there are endless papers, blog posts and videos looking into its roots, what it is, how it can be applied at scale in large organizations, etc, etc. I will just take a much more practical stance here and put it in practical terms: _anyone_ in your team, and especially new comers, need to feel free to ask questions and raise concerns without fear of being frowned upon or cancelled. It is a natural part of an onboarding process as well as the process of joining a new team to ask questions and raise concerns. People will join with "fresh eyes" and will always bring a new perspective to the table, so, allowing them to expose it and raise it in a safe environment is a critical part of ensuring that new people feel safe and heard in the new environment they are joining to. 
+
+Fostering it can be 
 
 - integrated devOps inside dev team;
 
