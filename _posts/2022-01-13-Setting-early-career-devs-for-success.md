@@ -22,9 +22,11 @@ These questions are easy enough to answer after a few months by both managers an
 
 As developers, we value technical expertise and formal processes that can be followed to help us reach our goals _but_ we also _need_ the time and space to explore, learn and foster our creativity within the tasks given to us.
 
-Combining both of these worlds and wrapping it all with good and updated onboarding documentation is almost an art: it's different everywhere, it's opinionated, it depends on the size of the team and the company and it's pretty hard to get right from the get go. So, let's look at a list of points that can help streamlining this process, or, at least, guide people into trying out new things:
+Combining both of these worlds and wrapping it all with good and updated onboarding documentation is almost an art: it's different everywhere, it's opinionated, it depends on the size of the team and the company and it's pretty hard to get right from the get go. So, let's look at a list of points that can help streamlining this process, or, at least, guide people into trying out new things.
 
-- onboarding docs;
+#### Onboarding documentation
+
+Having an
 
 -psychological safety;
 
