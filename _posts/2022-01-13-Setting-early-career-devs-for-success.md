@@ -26,7 +26,10 @@ Combining both of these worlds and wrapping it all with good and updated onboard
 
 #### Onboarding documentation
 
-Having an
+Having an onboarding process in place is very important: in the midst of all the chaos and everythinng being new, having a central process that new people can follow can really make a big difference in how they adapt and adjust in their first few weeks, which in turn, will dictate (or not) their success over a few months.  
+This doesn't even need to be very well-defined: pointers to relevant internal wiki links over Slack and having a more technical set of markdown documents in the repo, _next to the code_, can be a huge force multiplier for someone just starting out. If possible, also detail a little bit how things work in terms of testing, deploying and code reviews, and, when put all together, you will have a nice, complete package that new joiners can follow.
+
+In addition, also ensure that new people document any additional questions that they have and have them completing and extending the documentation, improving your onboarding process while simultaneously giving them some simple tasks to build up familiarity with the codebase. Everybody wins.
 
 -psychological safety;
 
