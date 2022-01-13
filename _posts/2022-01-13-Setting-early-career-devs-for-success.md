@@ -35,11 +35,15 @@ In addition, also ensure that new people document any additional questions that 
 
 Psychological safety could be a topic on its own, and, there are endless papers, blog posts and videos looking into its roots, what it is, how it can be applied at scale in large organizations, etc, etc. I will just take a much more practical stance here and put it in practical terms: _anyone_ in your team, and especially new comers, need to feel free to ask questions and raise concerns without fear of being frowned upon or cancelled. It is a natural part of an onboarding process as well as the process of joining a new team to ask questions and raise concerns. People will join with "fresh eyes" and will always bring a new perspective to the table, so, allowing them to expose it and raise it in a safe environment is a critical part of ensuring that new people feel safe and heard in the new environment they are joining to. 
 
-Fostering it can be 
+Fostering it can be as easy as having informal knowledge sharing events within the team or company, have and promote ad-hoc meetings to discuss specific issues and encourage experimentation and testing of different approaches to do the same thing. It's sometimes the unwritten rules and small details that can real "show" to new people if psychological safety is applied in practice or just on paper.
 
-- integrated devOps inside dev team;
+#### Integrated devOps inside development team
 
-- product context;
+This will be prevalent practice and almost a necessity in smaller companies or start-ups: there's simply not enough people to have and build a dedicated full-on platform team or devOps team, so, as a result, this means that the few devOps experts within the company will eventually end up delegating some tasks and sharing some knowledge with the development team, and, as a result, this will knit together a lot of the operations and the development, which means that a new person joining will have immediately a much broader view of how everything works while staying within the scope of a single team which can be very valuable. Again, this may not be applicable to all companies and all teams, but, where possible, is a great way to help people growing into the entire stack in a more comfortable fashion.
+
+#### Product context
+
+
 
 - pair programming;
 
