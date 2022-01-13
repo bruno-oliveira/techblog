@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting up early career devs for success
-published: false
+published: true
 ---
 
 With the market being so hot right now for senior developers and experienced applicants, it's undoubtedly a hard time to be an early-career developer in search of a new job. So, it makes it especially important for the rest of us to ensure that early-career engineers can be set up for success so that they can thrive and pass on what they've learned to the next generation of developers, keeping up the nice cycle of knowledge sharing embedding in it the new technologies and best practices that inevitably will arise.
@@ -43,10 +43,26 @@ This will be prevalent practice and almost a necessity in smaller companies or s
 
 #### Product context
 
+In a vast majority of companies which provide a product to customers, developers will need to work and develop features to support that product: fix bugs, extend it, adapt to client's changing requirements, sunset features if needed and much more, but, the common factor is that it's all about _the product_. There will be product owners to align with and, in general, the expectations within the company will be that the development team will always be working towards improving _the product_.
 
+However, it's very common for developers to just jump in head-first into the more technical work, before getting to know their own role and position in terms of product context, i.e., they need to know exactly why they are doing _this_ technical work in particular instead of _that one_. This understanding can be gained by having product people, during the onboarding period, giving developers context about the product in terms of the clients, the use-cases and how it works. Equipped with this knowledge, people will be in a much better position to judge and contribute in a meaningful way towards the development of the product, because they will be taking or refuting opinions with much more information. This matters. 
 
-- pair programming;
+#### Pair programming
 
-- stretch tasks;
+Pair programming can be useful to have in place during the onboarding period for new people, especially if they play the role of the more passive person: they can watch and support their new, more experienced colleagues with simple suggestions and ideas, which allows the new people to get a feel for what is acceptable or not, what's considered important or optional, what's acceptable or not. In a sense, it's a simple way of sifting through some hoops in a more passive fashion than when compared for example, with going through those same hoops in a code review where things can feel a bit more personal.
 
-- time to let it sink in;
+By pairing, a new person will immediately spot some flows, some ways of working, what needs to be tweaked and where to run tests locally for example, how to trigger a pipeline, etc. When this is combined with having good documentation, it makes it very easy to make a person feel comfortable around a codebase.
+
+#### Stretch tasks
+
+By the end of the first months, and, after a certain knowledge and familiarity has been gained, it's a nice idea to have what I like to call "stretch tasks" or maybe an "onboarding ticket" in place. I define this as being a task that can be just slightly out of reach for a person who is fully new to the team and the company, but, one that is still doable with some help from the right people and with some uninterrupted time stretch to spend on it. It can be a large ticket, or a ticket that requires digging into that new library that nobody had time to look at yet, or a variation of these. 
+
+The advantage of this is that when the new person will be working on it, there will inevitably be findings that can be relevant to the whole team or maybe it will provide a chance to improve documentation or even better, foster cross-team collaboration and everybody will benefit from it. These tasks are hard to find, but, it can be a nice investement when readily available to make a new person grow quickly into the team and the company.
+
+#### Time to let it sink in
+
+Finally, the last point: after all of the above, any person would feel overwhelmed after a few weeks, and, especially on teams where the pace tends to be high, it's important to have days in the week where a new person can kind of relax and let all the new knowledge that has been acquired crystallize a bit so that a better mental model can start forming. This is quite important especially because that mental model will shape the way the person will work and interact with other stakeholders and also will decide the "areas" where the person will more naturally gravitate towards due to previous familiarity or expertise. So, making offload time so that a mental model can be formed is very important.
+
+### Conclusion
+
+This was a short list with some ideas on how engineers can help their early-career peers and new colleagues level up their skills and knowledge in the context of their company in a sustained and focused way that combines product, development and time to get to know the processes, the people and the team. Essentially, a small guide to allow a new person to cover the most ground in the least amount of time while ensuring that nobody will trip over during the journey. As always, comments and feedback welcome.
