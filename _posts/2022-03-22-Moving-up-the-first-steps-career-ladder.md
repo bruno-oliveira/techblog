@@ -1,7 +1,7 @@
 ---
 title: Moving up the first steps in the career ladder
 layout: post
-published: false
+published: true
 ---
 
 **Introduction**
@@ -109,5 +109,13 @@ Be relentless!
 Finally, this last piece of advice is my own, but, I find it to be extremely important for anyone who is starting out: learn to rely on your team and seek help when you need!
 
 Having a good team surrounding you when you're just starting out can make a world of difference and if you can freely voice your concerns, doubts and frustrations to your team, you will feel much more comfortable in your own shoes and that pesky imposter syndrome will fade away. Trust me, I've been there before!
+
+If you show up to work every day with a curiosity to learn, if you're willing to challenge yourself and if you're open to feedback, a good team can be a true career accelerator!! It certainly has been for me! 
+
+**Conclusion**
+
+Evolution as a software engineer is different depending on whether you're just starting or have been a few years in the game! As someone who has around 6 years of experience, I can attest that these four things have definitely been a huge help in putting me where I am now and I hope that you can also extract value out of them! 
+
+The interesting thing is that these can keep being applied as you keep growing in your career at different scales so, they're very much worth your investment! 
 
 
