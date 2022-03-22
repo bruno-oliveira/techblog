@@ -1,5 +1,5 @@
 ---
-title: Moving up the career ladder
+title: Moving up the first steps in the career ladder
 layout: post
 published: false
 ---
@@ -73,4 +73,37 @@ If you can't make the test pass right away because of lack of knowledge of the u
 
 Now, after your own investigations, codebase and documentation research and even, if possible, producing some written artifact about your understanding of the issue, either in code or in plain English, asking a well-targeted question is the easiest step of the process.
 
-And, there you go, a simple framework that guides you towards doing your own research in the codebase as well as its surroundings, checking in with colleagues if possible and enhancing the codebase by adding tests. A great by-product of actually doing all of this work is that 
+And, there you go, a simple framework that guides you towards doing your own research in the codebase as well as its surroundings, checking in with colleagues if possible and enhancing the codebase by adding tests. A great by-product of actually doing all of this work is that you will be able to formulate a much better question that will show to your more experienced colleagues that you've "done your homework" which in turn will make them much more receptive to helping you out.
+
+Note, however, that this process is actually hard work and it will mimic the flow of the more experienced people in your team, so, it can take you a few days or weeks of effort to be able to "formulate a proper question". This is the most efficient way to learn because all the work you're putting in now will compound later on! Keep at it!
+
+**Adding value**
+
+After a little while within your new role, and after feeling more comfortable with the necessary work to get up to speed, like, how to build the code locally, how to run tests, how to run pipelines and how to commit code, the next logic step is for you to seek how to start adding value, and, there is a very easy way to do this, something hinted at before in the mini-framework to ask better questions: _do the important things that nobody has time for._
+
+Well, that sounds a bit paradoxical, if things are important, how come nobody has time to do them?
+
+Let's dissect this a bit more: there are usually two types of tasks within a software development team, when you look at it in very, very broad terms: there are tasks that add business value, and tasks that don't add business value. Obviously, most engineers, for obvious reasons, will prioritize working on the first type of tasks, I mean, it helps moving the business forward, is potentially good for visibility/promotions and, usually, it's what managers really want to see coming out of the door.
+
+However, as a junior, since you are still navigating this new world, and you are growing your own skills, growing within the team, the company and getting to know your colleagues, adding immediate value by directly working on the work with the highest business impact is not really a set expectation for you. 
+
+The most important thing as you grow as an engineer, especially as a junior, is to _keep learning_. A great way to learn is by adding value and you can do that rather easily and maybe even in an independent way by working on the non-functionals that surround the actual shipping of business value: increase the test coverage, verify that the documentation you've used is good and up-to-date, etc.
+
+You can also position yourself here to do more of what you would like to do in the future: collaborate more with the guys who maintain the pipelines, try out your crazy idea to cache Docker images like you did once in university, in a side branch and present it to the team, etc.
+If you focus on doing things with small scope, you will be much more likely to add more value from the get go, which will increase the confidence of your team members in you as well as infuse you with confidence to tackle harder challenges.
+
+Understand that adding value is not only about writing code that is in the critical path of a given feature or client request. It's about finding cross-cutting inneficiencies and addressing them or improving the overall quality of the codebase by working on non-critical things. All of this gives visibility and carries less risk than doing the heavyweight work all upfront.
+
+**Grow your knowledge**
+
+Growing your knowledge should be a priority, not only as a junior, but, always and throughout your whole career. 
+
+Software development is in constant evolution and change, and the only certainty in this industry is that stopping is the same as moving backwards, so, when you're starting out, it pays off to be very pragmatic and assertive and maximize all the chances you have to learn more and grow your knowledge: attend conferences, listen to podcasts, read your codebase when you aren't too pressured for work, keep updated with your tech stack and if possible, say _yes_ at picking up new tasks whenever you can: in the beginning, everything will always feel new and it's the best time to optimize for knowledge growth.
+
+Over time, after you've established yourself a little bit more, you will obviously become more selective in the tasks you'll pick up, but, I can say, from personal experience, that taking on new tasks and challenging yourself is the best way to maximize your own growth at this early stages of your career.
+
+Be relentless!
+
+**Rely on your team** 
+
+Finally
