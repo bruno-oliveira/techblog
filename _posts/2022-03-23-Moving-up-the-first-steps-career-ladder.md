@@ -106,4 +106,8 @@ Be relentless!
 
 **Rely on your team** 
 
-Finally
+Finally, this last piece of advice is my own, but, I find it to be extremely important for anyone who is starting out: learn to rely on your team and seek help when you need!
+
+Having a good team surrounding you when you're just starting out can make a world of difference and if you can freely voice your concerns, doubts and frustrations to your team, you will feel much more comfortable in your own shoes and that pesky imposter syndrome will fade away. Trust me, I've been there before!
+
+
