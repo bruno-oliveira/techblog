@@ -43,39 +43,39 @@ So, here's my mini-framework on how to ask better questions:
 
 1. Fully understand the problem
 
-The impact of this first step can't be overstated.
+   The impact of this first step can't be overstated.
 
-It's not uncommon to not get any bang for the buck when you're asking the wrong questions. Especially when starting out it's very common to go deep down the _wrong_ rabbit hole. Usually, a combination of lack of experience, together with not a lot of domain knowledge, can make this understanding of the problem be the hardest part to get right! When something fails, it's critical to have both the context and experience within the domain to understand why the failure is occuring: inspecting design docs, reading the database schema and forming a mental picture are great enablers for the next step in our mini-framework.
+   It's not uncommon to not get any bang for the buck when you're asking the wrong questions. Especially when starting out it's very common to go deep down the _wrong_ rabbit hole. Usually, a combination of lack of experience, together with not a lot of domain knowledge, can make this understanding of the problem be the hardest part to get right! When something fails, it's critical to have both the context and experience within the domain to understand why the failure is occuring: inspecting design docs, reading the database schema and forming a mental picture are great enablers for the next step in our mini-framework.
 
 2. Look in the code, issue tracker or docs for _similar_ problems that happened before
 
-After you have formed some understanding of the issue, by getting acquainted with the domain and the data model, you will realize that your understading of the bug will likely shift from simply interpreting the error as is: "NullPointerException at line X: Customer is null" to something more contextual, like: "Okay, this service loads customer data from this importer batch job that delegates it to other service that performs some data aggregation, so, maybe the aggregation is failing at some step".
+   After you have formed some understanding of the issue, by getting acquainted with the domain and the data model, you will realize that your understading of the bug will likely shift from simply interpreting the error as is: "NullPointerException at line X: Customer is null" to something more contextual, like: "Okay, this service loads customer data from this importer batch job that delegates it to other service that performs some data aggregation, so, maybe the aggregation is failing at some step".
 
-Performing this translation in our head is the single most important step you can take towards asking better questions. Why? Because you are now speaking the jargon of our colleagues and of your domain. A NullPointer is always a null pointer, but, a customer aggregation not producing the expected result? That's _interesting_! And, if it's interesting, it means it's worth exploring.
+   Performing this translation in our head is the single most important step you can take towards asking better questions. Why? Because you are now speaking the jargon of our colleagues and of your domain. A NullPointer is always a null pointer, but, a customer aggregation not producing the expected result? That's _interesting_! And, if it's interesting, it means it's worth exploring.
 
-The way this exploration is done can likely vary from team to team or company to company, but, reading internal documentation, searching your issue tracker for similar solved issues or simply making chitchat with someone else on the team can go a long way.
+   The way this exploration is done can likely vary from team to team or company to company, but, reading internal documentation, searching your issue tracker for similar solved issues or simply making chitchat with someone else on the team can go a long way.
 
-Here it matters to state that not all teams or companies will have a culture that favors psychological safety, or, less harshly, helpful senior developers willing to hear you out. You need to get the lay of the land and adjust your approaches accordingly. Going solo is fine, it just means you need to go to step 3, the one before you finally formulate your question.
+   Here it matters to state that not all teams or companies will have a culture that favors psychological safety, or, less harshly, helpful senior developers willing to hear you out. You need to get the lay of the land and adjust your approaches accordingly. Going solo is fine, it just means you need to go to step 3, the one before you finally formulate your question.
 
 3. Attempt to write a test. No tests? Add the first one ever. Can't or don't feel comfortable? Write everything down in plain English
 
-You're almost ready to formulate your formal question asking for help on your issue.
+   You're almost ready to formulate your formal question asking for help on your issue.
 
-You've gained understanding of the problem, you've read the code, browsed the internal documentation, wikis, and looked all around Github and have an understading of the problem besides the code, you can actually frame it in terms of the domain you'll be working on. Awesome, that's great progress!
+   You've gained understanding of the problem, you've read the code, browsed the internal documentation, wikis, and looked all around Github and have an understading of the problem besides the code, you can actually frame it in terms of the domain you'll be working on. Awesome, that's great progress!
 
-The next logical step is to attempt to codify all this knowledge into a test, any test really, can be unit test or integration test, that attempts to "challenge" your current understanding. Write a test that exercises the minimally required amount of code to spell out your assumption: "Aggregation at the service XYZ, must produce a non-null customer", or something. So, write a test, add the assertion that you expect, and, observe the test should fail, because well, there is a bug somewhere within the logic, so, if the test encodes the wrong logic, it should fail.
+   The next logical step is to attempt to codify all this knowledge into a test, any test really, can be unit test or integration test, that attempts to "challenge" your current understanding. Write a test that exercises the minimally required amount of code to spell out your assumption: "Aggregation at the service XYZ, must produce a non-null customer", or something. So, write a test, add the assertion that you expect, and, observe the test should fail, because well, there is a bug somewhere within the logic, so, if the test encodes the wrong logic, it should fail.
 
-A decent litmus test will be verifying that after your understanding is complete and changes yet again, and you go and fix the production code, while leaving the test untouched, it should now pass.
+   A decent litmus test will be verifying that after your understanding is complete and changes yet again, and you go and fix the production code, while leaving the test untouched, it should now pass.
 
-If you can't make the test pass right away because of lack of knowledge of the underlying services or if you can't add a test straight away for whatever reason, write down your understading of why you believe the bug is happening and what the expected behaviour should be. This will further prompt you to try and reinforce your own understanding so you can write everything relevant down.
+   If you can't make the test pass right away because of lack of knowledge of the underlying services or if you can't add a test straight away for whatever reason, write down your understading of why you believe the bug is happening and what the expected behaviour should be. This will further prompt you to try and reinforce your own understanding so you can write everything relevant down.
 
 4. Ask your _depth-first_ question
 
-Now, after your own investigations, codebase and documentation research and even, if possible, producing some written artifact about your understanding of the issue, either in code or in plain English, asking a well-targeted question is the easiest step of the process.
+   Now, after your own investigations, codebase and documentation research and even, if possible, producing some written artifact about your understanding of the issue, either in code or in plain English, asking a well-targeted question is the easiest step of the process.
 
-And, there you go, a simple framework that guides you towards doing your own research in the codebase as well as its surroundings, checking in with colleagues if possible and enhancing the codebase by adding tests. A great by-product of actually doing all of this work is that you will be able to formulate a much better question that will show to your more experienced colleagues that you've "done your homework" which in turn will make them much more receptive to helping you out.
+   And, there you go, a simple framework that guides you towards doing your own research in the codebase as well as its surroundings, checking in with colleagues if possible and enhancing the codebase by adding tests. A great by-product of actually doing all of this work is that you will be able to formulate a much better question that will show to your more experienced colleagues that you've "done your homework" which in turn will make them much more receptive to helping you out.
 
-Note, however, that this process is actually hard work and it will mimic the flow of the more experienced people in your team, so, it can take you a few days or weeks of effort to be able to "formulate a proper question". This is the most efficient way to learn because all the work you're putting in now will compound later on! Keep at it!
+   Note, however, that this process is actually hard work and it will mimic the flow of the more experienced people in your team, so, it can take you a few days or weeks of effort to be able to "formulate a proper question". This is the most efficient way to learn because all the work you're putting in now will compound later on! Keep at it!
 
 **Adding value**
 
