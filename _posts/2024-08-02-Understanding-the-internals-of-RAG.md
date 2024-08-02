@@ -86,3 +86,54 @@ Ollama is a cool new project that surfaced as a way to leverage the power of LLM
 networks:
  - app-network
 ```
+
+Ollama, upon start, spins up a server that we can then pull several open-source LLM and embedding models from, so, we do this in a two-image fashion: one that "prepares the models" by pulling them into our machine, into the volume defined by `ollama_data`, that is then shared with the `ollama-llm` compose service which will be the actual "running service" that we can then connect to from our Java code, to "call the LLM" as well as for generating the embeddings.
+
+The way this would work in a real production setting would be that the Java Springboot app would have a URL to connect itself to an LLM provider, which, in our case will be the Ollama "self-hosted" model.
+
+Let's see how this works:
+
+```docker
+  backend:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/ragdb
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=password
+      - SPRING_AI_OLLAMA_BASE_URL=http://ollama-llm:11434/
+      - SPRING_AI_OLLAMA_CHAT_OPTIONS_MODEL=tinydolphin
+      - SPRING_AI_OLLAMA_CHAT_OPTIONS_ALTERNATIVE_MODEL=tinyllama
+      - SPRING_AI_OLLAMA_CHAT_OPTIONS_ALTERNATIVE_SECOND_MODEL=llama3.1
+      - SPRING_AI_OLLAMA_EMBEDDING_OPTIONS_MODEL=mxbai-embed-large
+      - SPRING_AI_VECTORSTORE_PGVECTOR_REMOVE_EXISTING_VECTOR_STORE_TABLE=true
+      - SPRING_AI_VECTORSTORE_PGVECTOR_INDEX_TYPE=HNSW
+      - SPRING_AI_VECTORSTORE_PGVECTOR_DISTANCE_TYPE=COSINE_DISTANCE
+      - SPRING_AI_VECTORSTORE_PGVECTOR_DIMENSIONS=1024
+    depends_on:
+      - prepare-models
+      - db
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - app-network
+```
+
+The key properties for this sub-section are:
+
+```
+- SPRING_AI_OLLAMA_BASE_URL=http://ollama-llm:11434/
+- SPRING_AI_OLLAMA_CHAT_OPTIONS_MODEL=tinydolphin
+- SPRING_AI_OLLAMA_CHAT_OPTIONS_ALTERNATIVE_MODEL=tinyllama
+- SPRING_AI_OLLAMA_CHAT_OPTIONS_ALTERNATIVE_SECOND_MODEL=llama3.1
+- SPRING_AI_OLLAMA_EMBEDDING_OPTIONS_MODEL=mxbai-embed-large
+```
+
+We connect to the Ollama running server and configure the models we have downloaded to connect our Springboot app to them.
+
+Let's now look at how generating embeddings work using the configured model we just downloaded into our Ollama volume.
+
+### Generating embeddings in code with mxbai-embed-large-v1
+
+...
