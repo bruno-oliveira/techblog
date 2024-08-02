@@ -41,4 +41,48 @@ In the remainder of this post, I'll focus on integrating only open-source varian
 
 - LLMs are stored and run locally, via the Ollama project, packaged as a docker container;
 - Postgres will serve as our vector store, by being extended with the `PGVector` extension;
-- The embedding model to be used will be [mxbai-embed-large-v1](https://www.mixedbread.ai/blog/mxbai-embed-large-v1) from Mixedbread;  
+- The embedding model to be used will be [mxbai-embed-large-v1](https://www.mixedbread.ai/blog/mxbai-embed-large-v1) from Mixedbread;
+
+All of this has been written in the previous blog post, but, in the interest of making this post fully self-contained, I'll extract the key pieces and repeat them here for reference.
+
+Ollama is a cool new project that surfaced as a way to leverage the power of LLMs and embedding models by allowing people to run them locally on their machines. The base docker setup I used (as part of a larger docker-compose file that instantiated more services, such as the Springboot application and a Streamlit front-end) for setting up Ollama was the following:
+
+```docker
+  ollama-llm:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "11434:11434"
+    networks:
+      - app-network
+
+...
+
+  prepare-models:
+    image: ollama/ollama:latest
+    depends_on:
+      - ollama-llm
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=http://ollama-llm:11434
+    networks:
+      - app-network
+    entrypoint: >
+      sh -c "
+        echo 'Waiting for Ollama server to start...' &&
+        sleep 10 &&
+        echo 'Pulling tinydolphin...' &&
+        ollama pull tinydolphin &&
+        echo 'Pulling tinyllama...' &&
+        ollama pull tinyllama &&
+      echo 'Pulling llama3.1...' &&
+      ollama pull llama3.1 &&
+      echo 'Pulling embedding model...' &&
+      ollama pull mxbai-embed-large &&
+        echo 'Model preparation complete.'"
+
+networks:
+ - app-network
+```
