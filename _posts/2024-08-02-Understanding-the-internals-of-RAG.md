@@ -19,3 +19,12 @@ Current LLM providers like OpenAI, AWS Bedrock, Anthropic, and several other ope
 Secondly, an _embeddings_ API, which is an API whose sole responsibility is to produce embeddings from a piece of text and is arguably, the most important step in a deployed, trained, and fine-tuned LLM request flow.
 
 Embeddings are the crucial piece of the puzzle for understanding RAG.
+
+## Requirements for embeddings to work
+
+Another crucial point to understand is that each provider offers different embedding models that support different context window sizes (the size, measured in tokens, of the largest chunk of text you can embed at once) as well as different dimension sizes (the number of dimensions, i.e. elements, in the "vector-representation" of the embedded text).
+These two numbers mean different things and play different roles at different levels of the stack.
+Online, the most looked-at numbers you'll often read about concern only the number of elements in the "vector-representation" of the text, so, when you read online that "OpenAI embeddings have 1536 dimensions" or that "the default embedding size of PGVectorStore is set to 1536", this just means that the number of elements of the vectors that encode the semantic meaning of the text is 1536.
+There are many different models, from open-source to proprietary that have different dimensions, from 768 dimensions to over 3000, the flavors are quite varied here, and, a lot of the work is in testing the different trade-offs between different sizes in terms of how well the embeddings perform across a range of aspects, from size taken in the DB tables where they are stored, to the performance of using them with different distance types (we'll see what these are later).
+
+So, what is the most important aspect when working with embeddings? Very simply, and also obviously, **the embeddings of potential documents meant to be used for RAG purposes need to be done by the same model that will embed the query** for optimal results. If the vectors would have different sizes, applying a distance metric to them wouldn't make sense. Obviously what this _also_ means is that in theory different embedding models that produce vectors of similar sizes _could_ be used, the results would be meaningless to interpret as the representations in semantic meaning would be different, even if the size of the resulting vectors would be the same. Just because we can, doesn't mean we should.
