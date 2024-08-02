@@ -28,3 +28,17 @@ Online, the most looked-at numbers you'll often read about concern only the numb
 There are many different models, from open-source to proprietary that have different dimensions, from 768 dimensions to over 3000, the flavors are quite varied here, and, a lot of the work is in testing the different trade-offs between different sizes in terms of how well the embeddings perform across a range of aspects, from size taken in the DB tables where they are stored, to the performance of using them with different distance types (we'll see what these are later).
 
 So, what is the most important aspect when working with embeddings? Very simply, and also obviously, **the embeddings of potential documents meant to be used for RAG purposes need to be done by the same model that will embed the query** for optimal results. If the vectors would have different sizes, applying a distance metric to them wouldn't make sense. Obviously what this _also_ means is that in theory different embedding models that produce vectors of similar sizes _could_ be used, the results would be meaningless to interpret as the representations in semantic meaning would be different, even if the size of the resulting vectors would be the same. Just because we can, doesn't mean we should.
+
+## Back to Springboot: how does this work in practice?
+
+Now that we've seen some of the theory, let's look at some code to make it more concrete.
+
+Springboot has a new module, Spring AI, which we can leverage to integrate embeddings (and a dedicated database to work with them) into a regular Springboot web application.
+
+Just like there are many distinct Large Language Models and Embedding providers, we can have many distinct "vector database" providers.
+
+In the remainder of this post, I'll focus on integrating only open-source variants of all we've been discussing so far:
+
+- LLMs are stored and run locally, via the Ollama project, packaged as a docker container;
+- Postgres will serve as our vector store, by being extended with the `PGVector` extension;
+- The embedding model to be used will be [mxbai-embed-large-v1](https://www.mixedbread.ai/blog/mxbai-embed-large-v1) from Mixedbread;  
