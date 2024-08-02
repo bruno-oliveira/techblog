@@ -5,6 +5,6 @@ In a [previous](https://dev.to/brunooliveira/basic-rag-app-with-spring-ai-docker
 What are embedding models?
 Embedding models are models that are trained specifically to generate vector embeddings: long arrays of numbers that represent semantic meaning for a given sequence of text:
 
-what-are-embedding-models
+![embeddings.jpg]({{site.baseurl}}/images/embeddings.jpg)
 
 The resulting vector embedding arrays can then be stored in a database, which will compare them as a way to search for data that is similar in meaning. 
