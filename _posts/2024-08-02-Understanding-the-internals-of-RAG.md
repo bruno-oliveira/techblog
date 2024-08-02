@@ -184,3 +184,14 @@ So, by qualifying the `EmbeddingModel` interface with the annotation, what this 
 
 ![embeddings-api.png]({{site.baseurl}}/images/embeddings-api.png)
 
+Now we have a vector that captures the "semantic meaning" of our question, which means that these 1024 entries will somehow capture that we are asking for a cooking recipe, and that it's for pasta carbonara. Remember, we are working with vectors with 1024 elements and we will compare them by default according to the cosine distance "distance type":
+
+```java
+ - SPRING_AI_VECTORSTORE_PGVECTOR_DISTANCE_TYPE=COSINE_DISTANCE
+ - SPRING_AI_VECTORSTORE_PGVECTOR_DIMENSIONS=1024
+```
+
+### The grand finale: We know how to generate embeddings, now we can compute similarity between texts right inside the DB
+
+Now for the grand finale, we will see how to calculate similarity thresholds right inside the database, leveraging PGVector and what we just learned about embeddings.
+
