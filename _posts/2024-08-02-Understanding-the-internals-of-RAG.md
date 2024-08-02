@@ -212,9 +212,11 @@ SimilarityThreshold = 1 - CosineDistance(V1, V2)
 
 If we think geometrically, imagine two vectors in the XY cartesian plane, and imagine both vectors have the same origin point, and now, imagine an angle between them. 
 
-The smaller the angle between them is, the closer they are to each other, i.e. the more similar they are. In the limit, when the angle between the vectors is 0, the cosine distance is 1, and the similarity threshold is 0, i.e. there is NO DIFFERENCE between the vectors, so, they are exactly the same.
+The smaller the angle between them is, the closer they are to each other, i.e. the more similar they are. In the limit, when the angle between the vectors is 0, the cosine similarity is 1, and the cosine distance is 0, i.e. there is NO DIFFERENCE between the vectors, so, they are exactly the same.
 
 This is also why the dimensions need to be the same for the embedded documents and question: the difference in the length of the vectors would mess up the calculations!
+
+Note also that, given the definitions of these concepts, cosine distance ranges from 0 to 2, where 0 means identical vectors and 2 means opposite vectors. Correspondingly, cosine similarity ranges from 1 (identical) to -1 (opposite).
 
 Let's setup a basic table in the DB:
 
