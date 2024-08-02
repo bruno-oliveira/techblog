@@ -136,4 +136,30 @@ Let's now look at how generating embeddings work using the configured model we j
 
 ### Generating embeddings in code with mxbai-embed-large-v1
 
+The basic endpoint we'll use is:
+
+```java
+@PostMapping("/query-embedding")
+    public String embedding(@RequestBody String query) {
+        return embeddingService.computeEmbedding(query).toString();
+    }
+```
+
+Inside the `EmbeddingService` we have:
+
+```java
+@Slf4j
+@Service
+@AllArgsConstructor
+@ConditionalOnProperty("spring.datasource.url")
+public class EmbeddingService {
+
+    @Qualifier("ollamaEmbeddingModel")
+    private EmbeddingModel embeddingModel;
+
+    public List<Double> computeEmbedding(String query) {
+        return embeddingModel.embed(query);
+    }
 ...
+}
+```
