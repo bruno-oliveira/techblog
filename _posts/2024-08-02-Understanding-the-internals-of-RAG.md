@@ -164,4 +164,23 @@ public class EmbeddingService {
 }
 ```
 
-The real link between this piece of code and the docker-compose configuration shown above is "tucked away" in the Qualifier annotation:
+The real link between this piece of code and the docker-compose configuration shown above is "tucked away" in the Qualifier annotation, as we see upon "following" the qualifier declaration:
+
+```java
+ @Bean
+    @ConditionalOnMissingBean
+    @ConditionalOnProperty(
+        prefix = "spring.ai.ollama.embedding",
+        name = {"enabled"},
+        havingValue = "true",
+        matchIfMissing = true
+    )
+    public OllamaEmbeddingModel ollamaEmbeddingModel(OllamaApi ollamaApi, OllamaEmbeddingProperties properties) {
+        return new OllamaEmbeddingModel(ollamaApi, properties.getOptions());
+    }
+```
+
+So, by qualifying the `EmbeddingModel` interface with the annotation, what this means is that Springboot, at runtime will "resolve" to the implementation seen above, and as a result, we will be able to compute embeddings based on the model we defined earlier:
+
+![embeddings-api.png]({{site.baseurl}}/images/embeddings-api.png)
+
