@@ -163,3 +163,5 @@ public class EmbeddingService {
 ...
 }
 ```
+
+The real link between this piece of code and the docker-compose configuration shown above is "tucked away" in the Qualifier annotation:
