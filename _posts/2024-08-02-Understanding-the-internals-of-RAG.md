@@ -216,3 +216,53 @@ The smaller the angle between them is, the closer they are of each other, i.e. t
 
 This is also why the dimensions need to be the same for the embedded documents and question: the difference in the length of the vectors would mess up the calculations!
 
+Let's setup a basic table in the DB:
+
+```
+root@b5a235d77c0b:/# psql -U postgres -d ragdb
+psql (15.4 (Debian 15.4-2.pgdg120+1))
+Type "help" for help.
+
+ragdb=# -- Create a table to store our vectors
+CREATE TABLE IF NOT EXISTS vector_examples (
+    id SERIAL PRIMARY KEY,
+    description TEXT,
+    embedding vector(1024)
+);
+CREATE TABLE
+ragdb=#
+```
+
+Now, let's keep the same example as before:
+
+Let's assume the question we ask is:
+
+"what is the recipe for carbonara?"
+
+This generates an embedding:
+
+[-0.14050555229187012, 0.10416639596223831, -0.39789196848869324, 0.15648344159126282, -0.24174726009368896, -0.44184449315071106, -0.08020927011966705, 0.4772775173187256, 0.8236790299415588, ... (rest ommited), -0.24939970672130585, 0.6905518174171448, 0.6164807081222534]
+
+Let's now create two separate embeddings and enter them in the DB: one will be an answer to the question and the other will be a short sentence on why Verstappen is the best driver since Schumacher.
+
+ragdb=# INSERT INTO vector_examples (description, embedding) VALUES
+('To cook carbonara, mix eggs with parmesan, add guanciale, reserve pasta water, boil pasta, combine in a pan and enjoy!', '[-0.10348883271217346, 1.0759119987487793, 0.048883289098739624, -0.09129567444324493, -0.45658212900161743, -0.019695669412612915, 0.23682862520217896, 0.49972328543663025, 1.073593020439148, 0.2860829532146454, 1.6310596466064453, .... 0.6900556087493896, 0.2374967336654663]);
+INSERT 0 1
+
+ragdb=# INSERT INTO vector_examples (description, embedding) VALUES
+('Verstappen is a dutch F1 driver who is ruthless on track, and drives the iconic RB20, beating greats like Schumacher and Senna!', '[-0.5480663776397705, 0.011026214808225632, -0.21971482038497925, 0.2039300948381424,, ....  -0.0753195732831955, 0.12138164043426514]);
+INSERT 0 1
+
+Now, we are ready to apply the calculation of the cosine similarity:
+
+We see, by consulting the PGVector documentation that such a distance type is represented by the `<=>` operator in postgres, so, our query will be:
+
+`SELECT description, embedding <=> '<the vector that represents the embedding of our question on how to cook carbonara>` as cosine_distance FROM vector_examples ORDER BY cosine_distance ASC`
+
+We get:
+
+```
+---------------------------------------------------------------------------------------------------------------------------------+--------------------
+ To cook carbonara, mix eggs with parmesan, add guanciale, reserve pasta water, boil pasta, combine in a pan and enjoy!          | 0.1745348873407664
+ Verstappen is a dutch F1 driver who is ruthless on track, and drives the iconic RB20, beating greats like Schumacher and Senna! | 0.6636126533319713
+```
