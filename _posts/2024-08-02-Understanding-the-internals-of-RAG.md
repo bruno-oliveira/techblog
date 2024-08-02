@@ -206,13 +206,13 @@ Fluent expression exposed by the Spring AI library:
 
 See here, where it says: `similarity threshold`.
 
-That is defined as the complement of the cosine distance, i.e. if the cosine distance between V1 and V2 is X, then we have:
+That is defined as the complement of the cosine distance, i.e. if the cosine distance between V1 and V2 is defined as `CosineDistance(V1, V2)`, then we have:
 
 SimilarityThreshold = 1 - CosineDistance(V1, V2)
 
 If we think geometrically, imagine two vectors in the XY cartesian plane, and imagine both vectors have the same origin point, and now, imagine an angle between them. 
 
-The smaller the angle between them is, the closer they are of each other, i.e. the more similar they are. In the limit, when the angle between the vectors is 0, the cosine distance is 1, and the similarity threshold is 0, i.e. there is NO DIFFERENCE between the vectors, so, they are exactly the same.
+The smaller the angle between them is, the closer they are to each other, i.e. the more similar they are. In the limit, when the angle between the vectors is 0, the cosine distance is 1, and the similarity threshold is 0, i.e. there is NO DIFFERENCE between the vectors, so, they are exactly the same.
 
 This is also why the dimensions need to be the same for the embedded documents and question: the difference in the length of the vectors would mess up the calculations!
 
@@ -264,7 +264,23 @@ We see, by consulting the PGVector documentation that such a distance type is re
 We get:
 
 ```
+                                                          description                                                           |  cosine_distance
 ---------------------------------------------------------------------------------------------------------------------------------+--------------------
  To cook carbonara, mix eggs with parmesan, add guanciale, reserve pasta water, boil pasta, combine in a pan and enjoy!          | 0.1745348873407664
  Verstappen is a dutch F1 driver who is ruthless on track, and drives the iconic RB20, beating greats like Schumacher and Senna! | 0.6636126533319713
 ```
+
+As we expected based on the definitions we introduced above, the entry that better matches our query, i.e. the "closest", has a _smaller_ value for the `cosine_distance`. Why? Because, mathematically, the vectors are "closer together", so their cosine_distance is smaller.
+
+The similarity is the complement of this:
+
+```
+                                                           description                                                           |  cosine_distance   |     similarity
+---------------------------------------------------------------------------------------------------------------------------------+--------------------+--------------------
+ To cook carbonara, mix eggs with parmesan, add guanciale, reserve pasta water, boil pasta, combine in a pan and enjoy!          | 0.1745348873407664 | 0.8254651126592336
+ Verstappen is a dutch F1 driver who is ruthless on track, and drives the iconic RB20, beating greats like Schumacher and Senna! | 0.6636126533319713 | 0.3363873466680287
+```
+
+So, we now see that the first value is more similar to our query in the embedding space which is exactly what we wanted to confirm!!
+
+Armed with this, hopefully, you'll be in a better position to understand how to extract the most out of your RAG workflows! It's all Math!!
