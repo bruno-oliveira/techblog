@@ -195,3 +195,24 @@ Now we have a vector that captures the "semantic meaning" of our question, which
 
 Now for the grand finale, we will see how to calculate similarity thresholds right inside the database, leveraging PGVector and what we just learned about embeddings.
 
+We saw earlier that we are using as our "distance type" what is known as "Cosine distance". What is this distance and how does it relate to the actual "similarity" which is the concept usually exposed in libraries, for example, the Spring AI library:
+
+Fluent expression exposed by the Spring AI library:
+
+```
+ var similarDocuments = vectorStore.similaritySearch(SearchRequest.query(question)
+                .withSimilarityThreshold(0.70);
+```
+
+See here, where it says: `similarity threshold`.
+
+That is defined as the complement of the cosine distance, i.e. if the cosine distance between V1 and V2 is X, then we have:
+
+SimilarityThreshold = 1 - CosineDistance(V1, V2)
+
+If we think geometrically, imagine two vectors in the XY cartesian plane, and imagine both vectors have the same origin point, and now, imagine an angle between them. 
+
+The smaller the angle between them is, the closer they are of each other, i.e. the more similar they are. In the limit, when the angle between the vectors is 0, the cosine distance is 1, and the similarity threshold is 0, i.e. there is NO DIFFERENCE between the vectors, so, they are exactly the same.
+
+This is also why the dimensions need to be the same for the embedded documents and question: the difference in the length of the vectors would mess up the calculations!
+
