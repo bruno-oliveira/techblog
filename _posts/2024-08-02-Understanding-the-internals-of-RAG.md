@@ -245,6 +245,7 @@ This generates an embedding:
 
 Let's now create two separate embeddings and enter them in the DB: one will be an answer to the question and the other will be a short sentence on why Verstappen is the best driver since Schumacher.
 
+```
 ragdb=# INSERT INTO vector_examples (description, embedding) VALUES
 ('To cook carbonara, mix eggs with parmesan, add guanciale, reserve pasta water, boil pasta, combine in a pan and enjoy!', '[-0.10348883271217346, 1.0759119987487793, 0.048883289098739624, -0.09129567444324493, -0.45658212900161743, -0.019695669412612915, 0.23682862520217896, 0.49972328543663025, 1.073593020439148, 0.2860829532146454, 1.6310596466064453, .... 0.6900556087493896, 0.2374967336654663]);
 INSERT 0 1
@@ -252,6 +253,7 @@ INSERT 0 1
 ragdb=# INSERT INTO vector_examples (description, embedding) VALUES
 ('Verstappen is a dutch F1 driver who is ruthless on track, and drives the iconic RB20, beating greats like Schumacher and Senna!', '[-0.5480663776397705, 0.011026214808225632, -0.21971482038497925, 0.2039300948381424,, ....  -0.0753195732831955, 0.12138164043426514]);
 INSERT 0 1
+```
 
 Now, we are ready to apply the calculation of the cosine similarity:
 
